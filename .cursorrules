@@ -1,0 +1,49 @@
+# TrialBridge — Cursor project rules
+
+## What this project is
+TrialBridge is a COMPLETE, validated single-file Python tool (trialbridge.py, standard
+library only, Python 3.9+): a local, explainable oncology clinical-trial matcher.
+Pipeline: note -> EXTRACT profile -> RETRIEVE trials (ClinicalTrials.gov API v2) ->
+REASON per criterion (ELIGIBLE/INELIGIBLE/UNCERTAIN + evidence span) -> RANK + human
+review queue. Every model call is behind ONE Backend interface: heuristic|ollama|
+llamacpp|cloud.
+
+## Work efficiently (token discipline)
+- The file already works: run `python trialbridge.py selftest` (expect "71 passed").
+  VERIFY BY RUNNING; do not re-read or re-summarize the whole file to the user.
+- Make SURGICAL edits (targeted string replacements). Never rewrite or reformat the
+  entire file, and never regenerate code that already exists.
+- Keep it single-file and standard-library only. Do NOT add third-party dependencies
+  unless the user explicitly asks. Do not split into a package unless asked.
+- After ANY change, run `python trialbridge.py selftest` and, if relevant, `demo`.
+
+## Safety guardrails (non-negotiable)
+- Synthetic / de-identified data ONLY. Never place real patient data (PHI) in this repo,
+  in prompts, in cached pulls/snapshots, or in commits.
+- The `cloud` backend is EVALUATION-ONLY. Never route real patient notes to it.
+- UNCERTAIN is a deliberate abstention. Do not "fix" it into a forced yes/no.
+
+## Architecture (so you don't re-derive it)
+Sections of trialbridge.py, in order: schema (dataclasses/enums) - JSON utils - model
+backends + prompts + heuristic rules + get_backend() - Stage 1 extract - Stage 2 CT.gov
+client (fetch/cache/snapshot) - criteria splitter - Stage 3 reason - Stage 4 rank -
+equity degradation transforms - calibration / selective prediction - TrialBridge pipeline
+- evaluate() harness - bundled synthetic data - report - CLI - embedded run_tests().
+
+## Data (ClinicalTrials.gov API v2)
+- Endpoint: https://clinicaltrials.gov/api/v2/studies
+- Built-in cohorts in COHORT_QUERIES: neoantigen, nsclc, breast. Add new cohorts there.
+- `fetch --cohort X --out f.json` pulls live recruiting trials and freezes a reproducible
+  snapshot. `--offline` and the bundled snapshot run with no network.
+- Cache dir: ./data/trials (gitignore it). Never commit large pulls or any PHI.
+
+## How to extend
+- New model backend: subclass LLMBackend, implement complete(prompt, system), and register
+  it in get_backend(). The EXTRACT_*/JUDGE_* prompts already request strict JSON.
+- Real evaluation: point evaluate(...) at a real per-criterion gold set with a real backend
+  (ollama/llamacpp/cloud). The heuristic backend is a deterministic BASELINE only and
+  deliberately abstains on molecular/HLA criteria.
+
+## Conventions
+- Python 3.9+, standard library only, 4-space indentation, small pure functions.
+- When you change a regex/rule, add or adjust an assertion in run_tests() and re-run selftest.

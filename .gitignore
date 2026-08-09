@@ -1,0 +1,4 @@
+data/trials/
+__pycache__/
+*.pyc
+note.txt
