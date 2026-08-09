@@ -1,4 +1,7 @@
 data/trials/
 __pycache__/
 *.pyc
+
+# Notes and match output are profile-derived: treat as PHI, never commit.
 note.txt
+*_result.json
