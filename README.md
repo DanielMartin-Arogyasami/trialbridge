@@ -51,6 +51,37 @@ Per-criterion accuracy, abstention rate, and a risk-coverage curve on the bundle
 python trialbridge.py evaluate
 ```
 
+## Measured results
+
+On the bundled 15-criterion gold set (`python trialbridge.py evaluate`):
+
+| Backend | Coverage | Selective accuracy | Abstention rate | Molecular accuracy |
+|---|---|---|---|---|
+| `heuristic` | 0.87 | 1.00 | 0.13 | 1.00 |
+| `medgemma:4b` | 1.00 | 0.93 | 0.00 | 0.75 |
+
+The two backends fail in opposite directions, and neither is finished:
+
+- **The heuristic backend abstains too much.** On live ClinicalTrials.gov text it leaves
+  79% of criteria undecided (188 of 237), and 86% of those are the catch-all "no matching
+  structured field" — consent, washout windows, concurrent medications, active infection.
+  You cannot close that gap with more regexes.
+- **MedGemma 4B abstains too little.** It decided 100% of criteria, including the one whose
+  gold label is UNCERTAIN, so `abstain_rate` fell to zero. Worse, it produces confident
+  contradictions: for "Documented EGFR activating mutation" on an EGFR **wild-type**
+  patient it answered ELIGIBLE and cited «EGFR wild-type» as the supporting evidence. The
+  heuristic baseline gets that same criterion right.
+
+Two consequences worth naming. First, the gold set is currently too weak to referee this:
+15 records, 2 patients, labeled 14 ELIGIBLE / 1 UNCERTAIN / **0 INELIGIBLE**, so a stub
+that always answers ELIGIBLE scores 0.93. Second, `evidence_coverage` reports 1.00 for
+MedGemma, but it only checks that a span is non-empty — not that the span appears in the
+note or supports the label. Both need fixing before any accuracy number here is
+trustworthy.
+
+Throughput: roughly 5 s per criterion on a local 4B model, so a real trial with 20+
+criteria takes minutes. Use `--max-criteria` while iterating.
+
 ## Backends
 
 | Backend | Use | Notes |
