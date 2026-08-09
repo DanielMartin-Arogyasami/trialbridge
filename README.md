@@ -26,7 +26,7 @@ guessing.
 ## Quick start
 
 ```bash
-python trialbridge.py selftest        # embedded tests, offline    -> 71 passed, 0 failed
+python trialbridge.py selftest        # embedded tests, offline    -> 72 passed, 0 failed
 python trialbridge.py demo            # end-to-end on bundled synthetic data, offline
 python trialbridge.py demo --degrade  # equity slice: degraded community-style note
 ```
@@ -56,16 +56,21 @@ python trialbridge.py evaluate
 | Backend | Use | Notes |
 |---|---|---|
 | `heuristic` (default) | offline, deterministic | Baseline, no model. Abstains on molecular/HLA by design, routing hard trials to review. **Not the product.** |
-| `ollama` | local MedGemma via Ollama | `--backend ollama --model medgemma-4b-it` |
+| `ollama` | local MedGemma via Ollama | `--backend ollama --model medgemma:4b` |
 | `llamacpp` | local MedGemma via llama.cpp server or in-process GGUF | set `LLAMACPP_URL` or `LLAMACPP_MODEL_PATH` |
 | `cloud` | frontier reference model | eval-only, needs `ANTHROPIC_API_KEY` |
 
 With a real local model:
 
 ```bash
-ollama serve & ollama pull medgemma-4b-it
-python trialbridge.py match --patient note.txt --offline --backend ollama --model medgemma-4b-it
+ollama pull medgemma:4b
+python trialbridge.py match --patient note.txt --offline --backend ollama --model medgemma:4b
 ```
+
+MedGemma is published in Ollama's official library as `medgemma:4b` (3.3 GB) and
+`medgemma:27b`. Judging a trial costs one model call per criterion, so real trials with
+20+ criteria take noticeably longer than the heuristic baseline — use `--max-criteria` to
+cap the work while iterating.
 
 The `heuristic` backend is a deterministic **baseline**, not the product. On real trial
 text it abstains often and makes some keyword-driven mistakes; use a real model backend

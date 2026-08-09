@@ -15,7 +15,7 @@ Run:
     python trialbridge.py extract --patient note.txt
     python trialbridge.py match   --patient note.txt --offline
     python trialbridge.py match   --patient note.txt --cohort nsclc      # live CT.gov
-    python trialbridge.py match   --patient note.txt --backend ollama --model medgemma-4b-it
+    python trialbridge.py match   --patient note.txt --backend ollama --model medgemma:4b
     python trialbridge.py fetch   --cohort neoantigen --out trials.json  # live CT.gov
     python trialbridge.py evaluate
 """
@@ -43,7 +43,7 @@ CTGOV_API = "https://clinicaltrials.gov/api/v2/studies"
 DEFAULT_CACHE_DIR = os.environ.get("TRIALBRIDGE_CACHE", os.path.join(".", "data", "trials"))
 
 DEFAULT_CLOUD_MODEL = os.environ.get("TRIALBRIDGE_CLOUD_MODEL", "claude-sonnet-4-6")
-DEFAULT_LOCAL_MODEL = os.environ.get("TRIALBRIDGE_LOCAL_MODEL", "medgemma-4b-it")
+DEFAULT_LOCAL_MODEL = os.environ.get("TRIALBRIDGE_LOCAL_MODEL", "medgemma:4b")
 
 class Label(str, Enum):
     ELIGIBLE = "ELIGIBLE"
@@ -795,13 +795,13 @@ _THERAPY_PATTERNS = [
 ]
 
 _LAB_PATTERNS = [
-    ("ANC", r"\banc[:\s]+([\d.]+)"),
-    ("platelets", r"\b(?:platelets?|plt)[:\s]+([\d.]+)"),
-    ("creatinine", r"\bcreatinine[:\s]+([\d.]+)"),
-    ("bilirubin", r"\b(?:total )?bilirubin[:\s]+([\d.]+)"),
-    ("AST", r"\bast[:\s]+([\d.]+)"),
-    ("ALT", r"\balt[:\s]+([\d.]+)"),
-    ("hemoglobin", r"\b(?:hemoglobin|hgb|hb)[:\s]+([\d.]+)"),
+    ("ANC", r"\banc[:\s]+(\d+(?:\.\d+)?)"),
+    ("platelets", r"\b(?:platelets?|plt)[:\s]+(\d+(?:\.\d+)?)"),
+    ("creatinine", r"\bcreatinine[:\s]+(\d+(?:\.\d+)?)"),
+    ("bilirubin", r"\b(?:total )?bilirubin[:\s]+(\d+(?:\.\d+)?)"),
+    ("AST", r"\bast[:\s]+(\d+(?:\.\d+)?)"),
+    ("ALT", r"\balt[:\s]+(\d+(?:\.\d+)?)"),
+    ("hemoglobin", r"\b(?:hemoglobin|hgb|hb)[:\s]+(\d+(?:\.\d+)?)"),
 ]
 
 _COMORBID_PATTERNS = [
@@ -1747,6 +1747,8 @@ def run_tests(verbose: bool = False) -> Tuple[int, int]:
     c.ok("brain metastases" in p1.comorbidities, "extract brain mets comorbidity")
     c.eq(p1.serologies.get("HIV"), "negative", "extract HIV serology")
     c.ok(p1.labs.get("ANC") == 3.1, "extract ANC lab")
+    c.ok(p1.labs.get("hemoglobin") == 11.5,
+         "lab value ending a sentence is not lost to the trailing period")
 
     p2 = extract_profile(SAMPLE_PATIENTS["neo01"], be)
     c.ok("A*02:01" in p2.hla, "extract HLA allele")
