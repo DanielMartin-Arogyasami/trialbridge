@@ -1124,17 +1124,162 @@ def classify_ctype(text: str) -> Ctype:
         return Ctype.LOGISTICAL
     return Ctype.OTHER
 
+_GENE_TOKEN_RE = re.compile(
+    r"\b(EGFR|ALK|ROS1|KRAS|NRAS|BRAF|HER-?2|MET|RET|NTRK|TP53|BRCA1|BRCA2|MSI|TMB|PD-?L1)\b",
+    re.I,
+)
+_ABSENCE_HINT_RE = re.compile(
+    r"\b(wild[- ]?type|wt|negative|not detected|absent|no\b|unmutated)\b", re.I)
+_PRESENCE_HINT_RE = re.compile(
+    r"\b(positive|mutant|mutation|detected|amplif|fusion|rearrang|present|overexpress|"
+    r"activating|altered)\b", re.I)
+
+def _norm_span(s: str) -> str:
+    s = (s or "").lower()
+    s = re.sub(r"[^\w\s*:+/-]", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+def _genes_in(text: str) -> set:
+    return {m.group(1).upper().replace("HER-2", "HER2").replace("PDL1", "PD-L1")
+            for m in _GENE_TOKEN_RE.finditer(text or "")}
+
+def _near_copy(evidence: str, criterion: str) -> bool:
+    """True when evidence is essentially the criterion itself, not a profile span.
+
+    A short diagnosis that happens to also appear inside a disease criterion is
+    legitimate evidence and must NOT be rejected here.
+    """
+    na, nb = _norm_span(evidence), _norm_span(criterion)
+    if not na or not nb:
+        return False
+    if na == nb:
+        return True
+    if nb in na and len(na) >= int(0.8 * len(nb)):
+        return True
+    if na in nb and len(na) >= int(0.85 * len(nb)):
+        return True
+    ta = set(re.findall(r"[a-z0-9]{3,}", na))
+    tb = set(re.findall(r"[a-z0-9]{3,}", nb))
+    if not ta or not tb or abs(len(ta) - len(tb)) > 3:
+        return False
+    overlap = len(ta & tb) / max(len(ta), len(tb))
+    return overlap >= 0.85 and len(ta & tb) >= 5
+
+def _span_grounded(span: str, profile: PatientProfile) -> bool:
+    sources = [
+        profile.raw_note or "",
+        profile.brief(),
+        json.dumps(profile.to_dict(include_note=False), ensure_ascii=False),
+    ]
+    if profile.age is not None:
+        sources.append(f"age {profile.age}")
+    if profile.ecog is not None:
+        sources.append(f"ECOG {profile.ecog}")
+    if profile.prior_lines is not None:
+        sources.append(f"{profile.prior_lines} prior line")
+        sources.append(f"{profile.prior_lines} prior lines")
+    for b in profile.biomarkers:
+        sources.append(f"{b.gene} {b.alteration or ''} {b.status} {b.evidence}")
+    if profile.diagnosis:
+        sources.append(profile.diagnosis)
+    blob = _norm_span(" ".join(sources))
+    norm = _norm_span(span)
+    if not norm:
+        return False
+    if norm in blob:
+        return True
+    # Negative finding grounded by absence from the comorbidity list / note.
+    m = re.match(r"no (.+?) documented$", norm)
+    if m and not any(m.group(1) in _norm_span(cm) for cm in profile.comorbidities):
+        return True
+    toks = [t for t in re.findall(r"[a-z0-9*]+", norm) if len(t) >= 2]
+    if not toks:
+        return False
+    hits = sum(1 for t in toks if t in blob)
+    return hits >= max(1, (len(toks) + 1) // 2)
+
+def _gene_status_in_span(gene: str, span: str) -> Optional[str]:
+    for m in _GENE_TOKEN_RE.finditer(span or ""):
+        g = m.group(1).upper().replace("HER-2", "HER2").replace("PDL1", "PD-L1")
+        if g != gene:
+            continue
+        window = span[max(0, m.start() - 40): m.end() + 40]
+        has_abs = bool(_ABSENCE_HINT_RE.search(window))
+        has_pres = bool(_PRESENCE_HINT_RE.search(window))
+        if has_abs and not has_pres:
+            return "absent"
+        if has_pres and not has_abs:
+            return "present"
+        if has_abs and has_pres:
+            return None
+    return None
+
+def evidence_faithful(judgment: CriterionJudgment,
+                      profile: PatientProfile) -> Tuple[bool, str]:
+    """Return (ok, reason). Decided labels need grounded, non-contradictory evidence."""
+    if judgment.label == Label.UNCERTAIN:
+        return True, ""
+    ev = (judgment.evidence_span or "").strip()
+    if not ev:
+        return False, "decided label lacks evidence span"
+    if _near_copy(ev, judgment.criterion.text):
+        return False, "evidence span restates the criterion rather than citing the profile"
+    if not _span_grounded(ev, profile):
+        return False, "evidence span not grounded in profile or note"
+
+    crit_genes = _genes_in(judgment.criterion.text)
+    ev_genes = _genes_in(ev)
+    if crit_genes and ev_genes and not (crit_genes & ev_genes):
+        return False, (f"evidence cites {', '.join(sorted(ev_genes))} but criterion "
+                       f"concerns {', '.join(sorted(crit_genes))}")
+
+    for gene in sorted(crit_genes & ev_genes) if crit_genes else []:
+        status = _gene_status_in_span(gene, ev)
+        if status is None:
+            continue
+        if judgment.criterion.kind == Kind.INCLUSION:
+            if status == "absent" and judgment.label == Label.ELIGIBLE:
+                return False, (f"evidence asserts {gene} absent/wild-type but label is "
+                               f"ELIGIBLE for an inclusion requiring it")
+            if status == "present" and judgment.label == Label.INELIGIBLE:
+                return False, (f"evidence asserts {gene} present but label is INELIGIBLE "
+                               f"for an inclusion requiring it")
+        else:
+            if status == "present" and judgment.label == Label.ELIGIBLE:
+                return False, (f"evidence asserts {gene} present but label is ELIGIBLE "
+                               f"for an exclusion of that alteration")
+            if status == "absent" and judgment.label == Label.INELIGIBLE:
+                return False, (f"evidence asserts {gene} absent but label is INELIGIBLE "
+                               f"for an exclusion of that alteration")
+    return True, ""
+
+def apply_faithfulness_gate(judgment: CriterionJudgment,
+                            profile: PatientProfile) -> CriterionJudgment:
+    ok, why = evidence_faithful(judgment, profile)
+    if ok:
+        return judgment
+    note = f"[faithfulness gate: {why}]"
+    rationale = (judgment.rationale + " " + note).strip() if judgment.rationale else note
+    return CriterionJudgment(
+        criterion=judgment.criterion,
+        label=Label.UNCERTAIN,
+        evidence_span=judgment.evidence_span,
+        rationale=rationale,
+        confidence=0.0,
+    )
+
 def reason_criterion(profile: PatientProfile, criterion: Criterion,
                      backend: Backend) -> CriterionJudgment:
     raw = backend.judge(profile.to_dict(), criterion.text, criterion.kind, criterion.ctype)
     label = _coerce_label(raw.get("label"))
-    return CriterionJudgment(
+    judgment = CriterionJudgment(
         criterion=criterion,
         label=label,
         evidence_span=str(raw.get("evidence_span", "") or ""),
         rationale=str(raw.get("rationale", "") or ""),
         confidence=_coerce_float(raw.get("confidence"), default=0.0 if label == Label.UNCERTAIN else 0.5),
     )
+    return apply_faithfulness_gate(judgment, profile)
 
 def reason_trial(profile: PatientProfile, trial: Trial, backend: Backend,
                  max_criteria: Optional[int] = None) -> List[CriterionJudgment]:
@@ -1309,6 +1454,7 @@ def evaluate(backend: Backend, gold_records: Sequence[Dict[str, Any]],
     by_type: Dict[str, List[int]] = {}
     evidence_hits = 0
     evidence_decided = 0
+    gate_downgrades = 0
 
     for rec in gold_records:
         pk = rec["patient"]
@@ -1317,7 +1463,17 @@ def evaluate(backend: Backend, gold_records: Sequence[Dict[str, Any]],
         crit = Criterion(text=rec["criterion"],
                          kind=Kind(rec.get("kind", "inclusion")),
                          ctype=Ctype(rec.get("ctype", "other")))
-        j = reason_criterion(profiles[pk], crit, backend)
+        raw = backend.judge(profiles[pk].to_dict(), crit.text, crit.kind, crit.ctype)
+        pre = CriterionJudgment(
+            criterion=crit,
+            label=_coerce_label(raw.get("label")),
+            evidence_span=str(raw.get("evidence_span", "") or ""),
+            rationale=str(raw.get("rationale", "") or ""),
+            confidence=_coerce_float(raw.get("confidence"), default=0.5),
+        )
+        j = apply_faithfulness_gate(pre, profiles[pk])
+        if j.label != pre.label:
+            gate_downgrades += 1
         gold = _coerce_label(rec["gold"])
         preds.append(j.label)
         golds.append(gold)
@@ -1340,6 +1496,7 @@ def evaluate(backend: Backend, gold_records: Sequence[Dict[str, Any]],
         "selective": sel,
         "accuracy_by_ctype": acc_by_type,
         "evidence_coverage": (evidence_hits / evidence_decided) if evidence_decided else 0.0,
+        "gate_downgrades": gate_downgrades,
         "risk_coverage_curve": risk_coverage_curve(preds, golds, confs),
     }
 
@@ -1812,6 +1969,56 @@ def run_tests(verbose: bool = False) -> Tuple[int, int]:
     jj = reason_criterion(p1, Criterion("ECOG performance status 0-2.",
                                         Kind.INCLUSION, Ctype.PERFORMANCE), be)
     c.ok(jj.evidence_span.strip() != "", "decided judgment carries an evidence span")
+
+    p_wt = PatientProfile(
+        age=62, sex="female", diagnosis="non-small cell lung cancer", ecog=1,
+        biomarkers=[Biomarker("EGFR", "wild-type", status="absent", evidence="EGFR wild-type"),
+                    Biomarker("KRAS", "G12C", status="present", evidence="KRAS G12C")],
+        raw_note="62 year old female. EGFR wild-type. KRAS G12C mutation detected. ECOG 1.",
+    )
+    egfr_crit = Criterion("Documented EGFR activating mutation (e.g., L858R).",
+                          Kind.INCLUSION, Ctype.MOLECULAR)
+    bad = CriterionJudgment(egfr_crit, Label.ELIGIBLE,
+                            evidence_span="EGFR wild-type", rationale="model guess")
+    ok, why = evidence_faithful(bad, p_wt)
+    c.ok(not ok and "absent" in why, "EGFR wild-type cannot support ELIGIBLE on EGFR inclusion")
+    gated = apply_faithfulness_gate(bad, p_wt)
+    c.eq(gated.label, Label.UNCERTAIN, "faithfulness gate downgrades contradicting ELIGIBLE")
+    c.ok("[faithfulness gate:" in gated.rationale, "gate records the reason in rationale")
+
+    good = CriterionJudgment(egfr_crit, Label.ELIGIBLE,
+                             evidence_span="EGFR L858R", rationale="present")
+    c.ok(evidence_faithful(good, p1)[0], "EGFR L858R evidence supports ELIGIBLE when present")
+
+    her2_crit = Criterion("HER2 amplification or overexpression.",
+                          Kind.INCLUSION, Ctype.MOLECULAR)
+    wrong_gene = CriterionJudgment(her2_crit, Label.ELIGIBLE,
+                                   evidence_span="EGFR wild-type", rationale="wrong gene")
+    c.ok(not evidence_faithful(wrong_gene, p_wt)[0],
+         "evidence about EGFR cannot support a HER2 criterion")
+
+    echo = CriterionJudgment(
+        Criterion("Patients must be aged 18 years or older.", Kind.INCLUSION, Ctype.DEMOGRAPHIC),
+        Label.ELIGIBLE,
+        evidence_span="Patients must be aged 18 years or older.",
+        rationale="echo",
+    )
+    c.ok(not evidence_faithful(echo, p1)[0], "restating the criterion is not faithful evidence")
+    dx = CriterionJudgment(
+        Criterion("Histologically confirmed non-small cell lung cancer, stage IV.",
+                  Kind.INCLUSION, Ctype.DISEASE),
+        Label.ELIGIBLE,
+        evidence_span="non-small cell lung cancer",
+        rationale="diagnosis match",
+    )
+    c.ok(evidence_faithful(dx, p1)[0],
+         "short diagnosis span inside a longer criterion is still faithful")
+
+    abstain = CriterionJudgment(egfr_crit, Label.UNCERTAIN, evidence_span="", rationale="")
+    c.ok(evidence_faithful(abstain, p_wt)[0], "UNCERTAIN needs no evidence span")
+
+    c.ok(evidence_faithful(jj, p1)[0], "heuristic ECOG judgment survives the faithfulness gate")
+    c.eq(jj.label, Label.ELIGIBLE, "gated heuristic ECOG judgment stays ELIGIBLE")
 
     result = TrialBridge(be, sample_client()).match(
         SAMPLE_PATIENTS["nsclc01"], trials=trials, top_k=10)

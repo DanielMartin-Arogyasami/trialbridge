@@ -26,7 +26,7 @@ guessing.
 ## Quick start
 
 ```bash
-python trialbridge.py selftest        # embedded tests, offline    -> 72 passed, 0 failed
+python trialbridge.py selftest        # embedded tests, offline    -> 82 passed, 0 failed
 python trialbridge.py demo            # end-to-end on bundled synthetic data, offline
 python trialbridge.py demo --degrade  # equity slice: degraded community-style note
 ```
@@ -53,31 +53,39 @@ python trialbridge.py evaluate
 
 ## Measured results
 
+Every decided verdict now passes through a **faithfulness gate**
+(`evidence_faithful` / `apply_faithfulness_gate`): empty spans, criterion-echo "evidence",
+spans not grounded in the note or structured profile, and molecular contradictions
+(e.g. citing «EGFR wild-type» for an ELIGIBLE call on an EGFR-mutation inclusion) are
+downgraded to `UNCERTAIN` with confidence 0. The gate is backend-agnostic — it wraps
+`reason_criterion` — so heuristic and LLM paths are both covered.
+
 On the bundled 15-criterion gold set (`python trialbridge.py evaluate`):
 
-| Backend | Coverage | Selective accuracy | Abstention rate | Molecular accuracy |
-|---|---|---|---|---|
-| `heuristic` | 0.87 | 1.00 | 0.13 | 1.00 |
-| `medgemma:4b` | 1.00 | 0.93 | 0.00 | 0.75 |
+| Backend | Coverage | Selective accuracy | Abstention rate | Gate downgrades | Molecular accuracy |
+|---|---|---|---|---|---|
+| `heuristic` | 0.87 | 1.00 | 0.13 | 0 | 1.00 |
+| `medgemma:4b` | 1.00 | 0.93 | 0.00 | 0* | 0.75 |
 
-The two backends fail in opposite directions, and neither is finished:
+\*The bundled gold patients both carry the alterations their criteria ask about, so the
+gate has nothing to reject there. The failure it is built for shows up on a different
+input: the KRAS-G12C / EGFR-**wild-type** note against the bundled EGFR trial. Before the
+gate, MedGemma labeled that EGFR-mutation inclusion **ELIGIBLE** and cited
+«EGFR wild-type»; after the gate the criterion is **UNCERTAIN** and the trial drops from
+ELIGIBLE into the human-review queue. That is the intended failure mode — ask a human
+rather than invent eligibility.
 
-- **The heuristic backend abstains too much.** On live ClinicalTrials.gov text it leaves
-  79% of criteria undecided (188 of 237), and 86% of those are the catch-all "no matching
-  structured field" — consent, washout windows, concurrent medications, active infection.
-  You cannot close that gap with more regexes.
-- **MedGemma 4B abstains too little.** It decided 100% of criteria, including the one whose
-  gold label is UNCERTAIN, so `abstain_rate` fell to zero. Worse, it produces confident
-  contradictions: for "Documented EGFR activating mutation" on an EGFR **wild-type**
-  patient it answered ELIGIBLE and cited «EGFR wild-type» as the supporting evidence. The
-  heuristic baseline gets that same criterion right.
+Remaining gaps:
 
-Two consequences worth naming. First, the gold set is currently too weak to referee this:
-15 records, 2 patients, labeled 14 ELIGIBLE / 1 UNCERTAIN / **0 INELIGIBLE**, so a stub
-that always answers ELIGIBLE scores 0.93. Second, `evidence_coverage` reports 1.00 for
-MedGemma, but it only checks that a span is non-empty — not that the span appears in the
-note or supports the label. Both need fixing before any accuracy number here is
-trustworthy.
+- **The heuristic backend still abstains too much** on live ClinicalTrials.gov text
+  (~79% UNCERTAIN), mostly on consent / washout / concurrent-med criteria that no
+  regex table will cover. Closing that needs a calibrated model, not more rules.
+- **The gate does not yet catch merely irrelevant evidence** (e.g. citing the diagnosis
+  for a brain-metastases criterion). Contradiction and grounding are covered; topical
+  relevance is not.
+- **The gold set is still too weak to referee this:** 15 records, 2 patients, labeled
+  14 ELIGIBLE / 1 UNCERTAIN / **0 INELIGIBLE**, so a stub that always answers ELIGIBLE
+  scores 0.93.
 
 Throughput: roughly 5 s per criterion on a local 4B model, so a real trial with 20+
 criteria takes minutes. Use `--max-criteria` while iterating.

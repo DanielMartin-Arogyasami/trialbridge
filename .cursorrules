@@ -9,7 +9,7 @@ review queue. Every model call is behind ONE Backend interface: heuristic|ollama
 llamacpp|cloud.
 
 ## Work efficiently (token discipline)
-- The file already works: run `python trialbridge.py selftest` (expect "72 passed").
+- The file already works: run `python trialbridge.py selftest` (expect "82 passed").
   VERIFY BY RUNNING; do not re-read or re-summarize the whole file to the user.
 - Make SURGICAL edits (targeted string replacements). Never rewrite or reformat the
   entire file, and never regenerate code that already exists.
@@ -26,7 +26,8 @@ llamacpp|cloud.
 ## Architecture (so you don't re-derive it)
 Sections of trialbridge.py, in order: schema (dataclasses/enums) - JSON utils - model
 backends + prompts + heuristic rules + get_backend() - Stage 1 extract - Stage 2 CT.gov
-client (fetch/cache/snapshot) - criteria splitter - Stage 3 reason - Stage 4 rank -
+client (fetch/cache/snapshot) - criteria splitter - Stage 3 reason + faithfulness
+gate (unfaithful decided verdicts -> UNCERTAIN) - Stage 4 rank -
 equity degradation transforms - calibration / selective prediction - TrialBridge pipeline
 - evaluate() harness - bundled synthetic data - report - CLI - embedded run_tests().
 
