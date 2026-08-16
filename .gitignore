@@ -1,6 +1,9 @@
 data/trials/
 __pycache__/
 *.pyc
+bench/__pycache__/
+bench_out/cache/
+bench_out/predictions/
 
 # Notes and match output are profile-derived: treat as PHI, never commit.
 note.txt

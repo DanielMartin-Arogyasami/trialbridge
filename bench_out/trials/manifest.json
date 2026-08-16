@@ -1,0 +1,59 @@
+{
+  "attribution": "Trial records retrieved from ClinicalTrials.gov, U.S. National Library of Medicine. Free-text content is authored by trial sponsors/investigators, not NLM.",
+  "built": "2026-08-16T21:58:19+00:00",
+  "cohorts": [
+    {
+      "atomic_criteria_per_trial": {
+        "max": 63,
+        "median": 17,
+        "min": 8,
+        "n": 25
+      },
+      "cohort": "nsclc",
+      "eligibility_chars": {
+        "max": 8994,
+        "median": 2169,
+        "min": 570,
+        "n": 25
+      },
+      "n_dropped_empty": 0,
+      "n_trials": 25,
+      "pulled": "2026-08-16T21:58:19+00:00",
+      "query": {
+        "query.cond": "non-small cell lung cancer",
+        "query.term": "EGFR OR ALK OR KRAS G12C OR PD-L1"
+      },
+      "snapshot": "trials\\nsclc_2026-08-16.json",
+      "total_atomic_criteria": 513
+    },
+    {
+      "atomic_criteria_per_trial": {
+        "max": 51,
+        "median": 25.5,
+        "min": 9,
+        "n": 22
+      },
+      "cohort": "neoantigen",
+      "eligibility_chars": {
+        "max": 9379,
+        "median": 5375.5,
+        "min": 806,
+        "n": 22
+      },
+      "n_dropped_empty": 0,
+      "n_trials": 22,
+      "pulled": "2026-08-16T21:58:19+00:00",
+      "query": {
+        "query.term": "neoantigen mRNA vaccine cancer"
+      },
+      "snapshot": "trials\\neoantigen_2026-08-16.json",
+      "total_atomic_criteria": 589
+    }
+  ],
+  "dataset": "TrialBridge-Bench",
+  "snapshot_notice": "DATED SNAPSHOT. These records do not reflect the current contents of ClinicalTrials.gov. Consult the registry directly for current records.",
+  "source": "ClinicalTrials.gov API v2 (https://clinicaltrials.gov/api/v2/studies)",
+  "status_filter": "RECRUITING",
+  "total_atomic_criteria": 1102,
+  "total_trials": 47
+}

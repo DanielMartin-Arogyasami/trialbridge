@@ -1,0 +1,466 @@
+{
+  "pulled": "2026-08-16T21:58:19.548934+00:00",
+  "api": "https://clinicaltrials.gov/api/v2/studies",
+  "query": {
+    "query.cond": "non-small cell lung cancer",
+    "query.term": "EGFR OR ALK OR KRAS G12C OR PD-L1"
+  },
+  "trials": [
+    {
+      "nct_id": "NCT07629960",
+      "title": "A First-in-Human Trial of BLU-924 (SAR449336) in Advanced Solid Tumors Harboring KRAS Mutations",
+      "conditions": [
+        "Advanced Solid Tumor",
+        "Non-Small Cell Lung Cancer",
+        "Colorectal Neoplasms",
+        "Pancreatic Ductal Adenocarcinoma"
+      ],
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Pathologically confirmed diagnosis of metastatic Kirsten rat sarcoma viral oncogene homolog (KRAS)-mutant pancreatic ductal adenocarcinoma (PDAC), non-small cell lung cancer (NSCLC), or colorectal cancer (CRC) with evidence of a single KRAS G12C, G12D, G12V, G12A, G12S, or G13D mutation in tumor tissue or circulating tumor deoxyribonucleic acid (ctDNA).\n2. Measurable disease by Response Evaluation Criteria in Solid Tumors (RECIST) v1.1.\n3. Eastern Cooperative Oncology Group (ECOG) performance status (PS) 0-1.\n4. Patients must have received all standard therapies for their cancer type in the metastatic setting, unless they are unable to receive such therapies due to clinical characteristics, comorbidities, or other medically justified reasons.\n\nExclusion Criteria:\n\n1. History of additional malignancy within the last 2 years, with some exceptions as specified in the protocol.\n2. Active brain metastases (participants with asymptomatic brain metastases may be eligible).\n3. Have received prior targeted treatment(s) against KRAS, including pan-KRAS inhibitors, multi-RAS inhibitors, mutant-selective KRAS inhibitors, and RAS or KRAS degraders.\n4. Active or uncontrolled systemic infection, such as tuberculosis, Hepatitis B virus (HBV), Hepatitis C virus (HCV), or Human immunodeficiency virus (HIV).\n\nThe above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Blueprint Medicines Corporation"
+    },
+    {
+      "nct_id": "NCT07652125",
+      "title": "RGL-270 + ICI in Advanced NSCLC",
+      "conditions": [
+        "NSCLC"
+      ],
+      "phases": [
+        "NA"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "1. Subjects capable of understanding/compliance with study procedures and voluntarily signing informed consent.\n2. Age ≥18, any gender.\n3. Histologically/cytologically confirmed NSCLC.\n\n5.ECOG performance status 0 or 1.\n\n6.Life expectancy ≥6 months.\n\n7\\. Subject must have at least one measurable tumor lesion by RECIST 1.1 criteria at baseline prior to first-line treatment.\n\nNote: Previously irradiated lesions not eligible as target lesions unless documented progression post-radiation.\n\n8\\. Subjects with asymptomatic central nervous system (CNS) metastases (excluding meningeal or cerebrospinal membrane metastases) are allowed. For symptomatic CNS metastases, the condition must be stable after local treatment and no steroid or anticonvulsant treatment is required at least 7 days before enrollment (antiepileptic drugs are allowed).\n\n9.Willing to provide sufficient fresh tumor tissue or archival specimens for genomic profiling and neoantigen analysis (fresh tissue preferred).\n\n10.Willing to provide blood samples for immunogenicity/biomarker assessments at all timepoints. Pre-biopsy samples require no transfusion/blood products/G-CSF within 10 days.\n\n11.Adequate organ function (no blood products/growth factors within 10 days prior to testing):\n\nHematology:\n\nANC ≥1.5×10⁹/L, LYM ≥0.5×10⁹/L, PLT ≥100×10⁹/L, Hb ≥90g/L\n\nBiochemistry:\n\nTBIL ≤1.5×ULN, ALT/AST ≤2.5×ULN, ALB ≥30g/L, Scr ≤1.5×ULN\n\nCoagulation:\n\nINR ≤1.5, APTT ≤1.5×ULN\n\nCardiac:\n\nLVEF ≥50%\n\nECG:\n\nQTcF \\<470 ms (Fridericia's correction: QTcF=QT/RR⁰·³³)\n\n12.Women of childbearing potential (WOCBP): Negative pregnancy test within 7 days prior to treatment; non-lactating.\n\n13.Women and male subjects with fertile partners must use contraception from consent until 90 days post-last treatment (see Appendix V).\n\nReal-World Observational Cohort Addendum:\n\nExempt from tissue provision (Criterion 9) and immunogenicity blood sampling (Criterion 10). All other inclusion criteria apply.\n\nExclusion Criteria:\n\n1. Histologically/cytologically confirmed small cell lung cancer (SCLC), mixed tumors with SCLC components, neuroendocrine tumors with large cell components, or sarcomatoid carcinoma.\n2. Actionable driver mutations (e.g., EGFR/ALK) where targeted therapy is accessible per investigator assessment, except for patients refusing targeted treatment.\n3. Prior radiotherapy within 5 years or history of immunotherapy/cancer vaccines (including but not limited to TILs, CAR-T, TCR-T, therapeutic cancer vaccines).\n4. Live vaccines administered ≤28 days pre-screening or planned during study/within 90 days post-treatment (inactivated vaccines permitted).\n5. Investigator-assessed contraindications for immunotherapy.\n6. Active autoimmune diseases (exclusion: hypothyroidism from autoimmune thyroiditis requiring hormone replacement only).\n7. Evidence of active tuberculosis within 1 year pre-screening, regardless of treatment.\n8. History of interstitial lung disease (ILD), suspected active ILD on screening CT, or idiopathic pulmonary fibrosis/organizing pneumonia (e.g., BOOP/cryptogenic OP).\n9. Severe active infection requiring IV antibiotics/antifungals/antivirals ≤28 days pre-screening or during screening.\n10. Clinically uncontrolled effusions requiring drainage ≤14 days pre-screening (pleural/peritoneal/pericardial).\n11. Hypersensitivity to study drug excipients or severe vaccine allergy history.\n12. Other malignancies within 5 years (exceptions: cured cervical CIS, basal/squamous skin cancer, localized prostate cancer post-radical therapy, DCIS, papillary thyroid cancer).\n13. Allogeneic organ or hematopoietic stem cell transplantation.\n14. Congenital/acquired immunodeficiency (e.g., DiGeorge syndrome, T-/B-cell deficiencies, Wiskott-Aldrich, ataxia-telangiectasia, CVID) or HIV infection.\n15. Active hepatitis B (defined as positive hepatitis B surface antigen \\[HBsAg\\] at screening AND HBV DNA ≥500 IU/mL or above the upper limit of normal \\[ULN\\] at the local institution), OR active hepatitis C (defined as positive hepatitis C antibody \\[HCV-Ab\\] at screening AND detectable HCV-RNA).\n16. Uncontrolled or significant cardiovascular disease, including:\n\n    Symptomatic congestive heart failure (NYHA Class III or IV) Myocardial infarction within 6 months prior to screening Unstable angina within 1 month prior to screening Clinically significant arrhythmias requiring therapeutic intervention Refractory hypertension despite adequate treatment (systolic BP ≥160 mmHg and/or diastolic BP ≥100 mmHg)\n17. Any other condition deemed by the investigator to potentially compromise trial conduct or outcome interpretation, including but not limited to:\n\n    Anticipated poor compliance with study procedures Comorbidities posing unacceptable safety risks Insufficient neoantigen burden for vaccine production (based on tumor sequencing analysis) Vaccine manufacturing failure\n18. Subjects who experienced severe irAE during the run-in treatment period resulting in permanent discontinuation of PD-1/PD-L1 inhibitors.\n19. If a subject experiences comprehensive disease progression during the introduction treatment but only has clinical deterioration, or if the intracranial lesion stabilizes after local treatment and the investigator assesses that medication can continue, they are allowed to continue participating in the study.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Guangdong Association of Clinical Trials"
+    },
+    {
+      "nct_id": "NCT06357533",
+      "title": "Phase III, Open-label, Study of First-line Dato-DXd in Combination With Rilvegostomig for Advanced Non-squamous NSCLC With High PD-L1 Expression (TC ≥ 50%) and Without Actionable Genomic Alterations",
+      "conditions": [
+        "Non-Small Cell Lung Cancer"
+      ],
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically documented non-squamous NSCLC.\n* Stage IIIB or IIIC or Stage IV metastatic NSCLC (according to Edition 8 of the AJCC staging manual) not amenable to curative surgery or definitive chemoradiation.\n* Absence of sensitising EGFR mutations, and ALK and ROS1 rearrangements, and absence of documented local test result for any other known genomic alteration for which there are locally approved and available targeted first-line therapies.\n* Must provide tumor sample to determine PD-L1 status, TROP2 status and other biomarkers.\n* Known tumour PD-L1 expression status defined as TC ≥ 50%\n* At least one lesion, not previously irradiated that qualifies as a RECIST 1.1 target lesion at baseline\n* ECOG performance status of 0 or 1\n* Adequate bone marrow reserve and organ function\n\nExclusion Criteria:\n\n* Prior systemic therapy for advanced/metastatic NSCLC.\n* Squamous cell histology, or predominantly squamous cell histology NSCLC; mixed small cell lung cancer; NSCLC histology, sarcomatoid variant.\n* History of another primary malignancy within 3 years\n* Active or prior documented autoimmune or inflammatory disorders (with exceptions)\n* Any evidence of severe or uncontrolled disease that makes it undesirable for the participant to participate in the study or that would jeopardies compliance with the protocol.\n* Has clinically significant third-space fluid retention (for example pleural effusion) and is not amenable for repeated drainage.\n* History of any ILD/pneumonitis, including radiation pneumonitis (apart from radiation pneumonitis that did not require steroids), or drug-induced ILD/pneumonitis, has current or suspected ILD/pneumonitis that cannot be ruled out by imaging at screening.\n* Has significant pulmonary function compromise, as determined by the investigator\n* Spinal cord compression, or brain metastases unless participant treated and no longer symptomatic, radiologically stable, and who require no treatment with corticosteroids or anticonvulsants.\n* History of leptomeningeal carcinomatosis\n* Known clinically significant corneal disease\n* Active infection with TB, HBV, HCV, Hepatitis A, or known HIV infection that is not well controlled\n* History of active primary immunodeficiency",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "AstraZeneca"
+    },
+    {
+      "nct_id": "NCT07392658",
+      "title": "Phase II Trial of Amivantamab Plus Monochemotherapy in Platinum Unfit NSCLC Patients With EGFR exon20 Insertion Mutations.",
+      "conditions": [
+        "Metastatic NSCLC - Non-Small Cell Lung Cancer"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Written informed consent;\n* Male or female patient aged ≥18 years;\n* Histologically or cytologically confirmed stage IV or recurrent non-squamous NSCLC harboring EGFR exon20 insertion mutation;\n* No prior systemic treatment;\n* Unfit for platinum-based chemotherapy; Unfit for platinum is defined by a glomerular filtration rate (GFR) value less than 50 ml/min/BSA (body surface area) 1.73 m2 (or a CCR value of \\<50 ml/min) or age 80 years, presence of neurological disorders or hypersensitivity to platinum.\n* At least one radiological measurable disease according to RECIST criteria version 1.1;\n* Patients with brain metastases are eligible if they are asymptomatic and stable (i.e. without evidence of progression by imaging for at least two weeks prior to the first dose of trial treatment and without deterioration of any neurologic symptoms);\n* Performance status 0-2 (ECOG PS);\n* Patient compliance to trial procedures;\n* Adequate bone marrow function (ANC ≥ 1.5x109/L, platelets ≥75x109/L, haemoglobin \\>9 g/dl);\n* Adequate liver function (Total bilirubin ≤1.5 x ULN; subjects with Gilbert's syndrome can enroll if conjugated bilirubin is within normal limits, transaminases no more than 3xULN/\\<5xULN in presence of liver metastases);\n* Normal level of alkaline phosphatase and Serum creatinine \\<1.5 x ULN and creatinine clearance \\>45 mL/min as measured or calculated; refer to Appendix --Cockcroft-Gault Formula for Estimated creatinine clearance 12 Patients should be using adequate contraceptive measures, should not be breastfeeding, until 7 months after the last dose, and must have a negative pregnancy test (serum or urine) prior to first dose of study drug (within 72 hours) and must agree to further serum or urine pregnancy tests during the study; or female patients must have an evidence of non-childbearing potential by fulfilling one of the following criteria at screening: Post-menopausal defined as aged more than 50 years and amenorrheic for at least 12 months following cessation of all exogenous hormonal treatments; Women under 50 years old would be considered postmenopausal if they have been amenorrheic for 12 months or more following cessation of exogenous hormonal treatments and with luteinizing hormone (LH) and follicle-stimulating hormone (FSH) levels in the post-menopausal range for the institution.\n\nA participant must be either of the following:\n\n* Not of childbearing potential\n* Of child-bearing potential and practicing true abstinence during the entire period of the study, including up to 6 months after the last dose of study treatment is given\n* Of childbearing potential and practicing 2 methods of contraception, including 1 highly effective user independent method and a second method (examples of highly effective methods of contraception are in section 9.6: Contraceptive Guidance and Collection of Pregnancy Information).\n\nA participant must agree not to donate eggs (ova, oocytes) for the purposes of assisted reproduction during the study and for 6 months after receiving the last dose of study treatment.\n\nA participant must wear a condom when engaging in any activity that allows for passage of ejaculate to another person during the study and for 6 months after receiving the last dose of study treatment. A participant who is sexually active with a partner of childbearing potential must agree to use a condom with spermicidal foam/gel/film/cream/suppository and their partner must also be practicing a highly effective method of contraception (ie, established use of oral, injected, or implanted hormonal methods of contraception; placement of an intrauterine device \\[IUD\\] or intrauterine hormone-releasing system \\[IUS\\]).\n\nIf the participant is vasectomized, they must still use a condom (with or without spermicide) for prevention of passage of exposure through ejaculation, but their partner is not required to use contraception.\n\nA participant must agree not to donate sperm for the purpose of reproduction during the study and for a minimum of 6 months after receiving the last dose of study treatment.\n\nNote: If the childbearing potential changes after start of the study (eg, participant of childbearing potential who is not heterosexually active becomes active, premenarchal participant experiences menarche) the participant must begin birth control, as described above.\n\nExclusion Criteria:\n\n* Uncontrolled infectious liver disease;\n* Positive hepatitis B (hepatitis B virus \\[HBV\\]) surface antigen (HBsAg) Note: participants with a prior history of HBV demonstrated by positive hepatitis B core antibody are eligible if they have at Screening 1) a negative HBsAg and 2) a HBV DNA (viral load) below the lower limit of quantification, per local testing. Subjects with a positive HBsAg due to recent vaccination are eligible if HBV DNA (viral load) is below the lower limit of quantification, per local testing.\n* Positive hepatitis C antibody (anti-HCV). Note: participants with a prior history of HCV, who have completed antiviral treatment and have subsequently documented HCV RNA below the lower limit of quantification per local testing are eligible.\n* Participant is positive for human immunodeficiency virus (HIV), with 1 or more of the following:\n\nReceiving ART that may interfere with study treatment (consult sponsor for review of medication prior to enrollment) CD4 count \\<350 at screening AIDS-defining opportunistic infection within 6 months of start of screening Not agreeing to start ART and be on ART\\>4 weeks plus having HIV viral load \\<400 copies/mL at end of 4-week period (to ensure ART is tolerated and HIV controlled).\n\n-Participant has active cardiovascular disease including, but not limited to: A medical history of deep vein thrombosis or pulmonary embolism within 1 month prior to randomization or any of the following within 6 months prior to randomization: myocardial infarction, unstable angina, stroke, transient ischemic attack, coronary/peripheral artery bypass graft, or any acute coronary syndrome. Clinically non-significant thrombosis, such as non-obstructive catheter-associated thrombus, incidental or asymptomatic pulmonary embolism, are not exclusionary.\n\n* Uncontrolled (persistent) hypertension: systolic blood pressure \\>160 mm Hg; diastolic blood pressure \\>100 mm Hg.\n* Congestive heart failure (CHF), defined as New York Heart Association (NYHA) class III-IV or hospitalization for CHF (any NYHA class; refer to Appendix 6: New York Heart Association Criteria) within 6 months of randomization.\n* Participant has an uncontrolled illness, including but not limited to:\n\nUncontrolled diabetes Ongoing or active infection (includes infection requiring treatment with antimicrobial therapy \\[participants will be required to complete antibiotics 1 week prior to starting study treatment\\] or diagnosed or suspected viral infection.\n\nActive bleeding diathesis Impaired oxygenation requiring continuous oxygen supplementation Psychiatric illness, social situation, or any other circumstances that would limit compliance with study requirements Any ophthalmologic condition that is clinically unstable\n\n* Absence of measurable lesions;\n* Concomitant radiotherapy;\n* Previous treatment with any EGFR Exon20ins-targeted TKIs;\n* Symptomatic or immediately requiring therapy for brain metastases or carcinomatous meningitis. Subjects with asymptomatic and stable or treated brain metastases may participate;\n* Participant has concurrent or prior malignancy other than the disease under study. The following exceptions require consultation with the Medical Monitor:\n\n  1. Non-muscle invasive bladder cancer (NMIBC) treated within the last 24 months that is considered completely cured.\n  2. Skin cancer (non-melanoma or melanoma) treated within the last 24 months that is considered completely cured.\n  3. Non-invasive cervical cancer treated within the last 24 months that is considered completely cured.\n* Participant had major surgery excluding placement of vascular access or tumor biopsy, or had significant traumatic injury within 4 weeks before randomization, or will not have fully recovered from surgery, or has surgery planned during the time the participant is expected to participate in the study.\n\nNote: Participants with planned surgical procedures to be conducted under local anesthesia may participate.\n\n* History of extensive disseminated/bilateral or known presence of Grade 3 or 4 interstitial fibrosis or interstitial lung disease including a history of pneumonitis, hypersensitivity pneumonitis, interstitial pneumonia, interstitial lung disease, obliterative bronchiolitis and pulmonary fibrosis;\n* Any evidence of severe or uncontrolled systemic diseases, including uncontrolled hypertension and active bleeding diatheses; or active infection including hepatitis B, hepatitis C and human immunodeficiency virus (HIV);\n* Pregnancy or lactating female;\n* Other serious illness or medical condition potentially interfering with the study.",
+      "min_age": "18 Years",
+      "max_age": "99 Years",
+      "sex": "ALL",
+      "lead_sponsor": "Fondazione Ricerca Traslazionale"
+    },
+    {
+      "nct_id": "NCT06946927",
+      "title": "A Phase Ib Study of JMKX001899 in Combination With Other Therapies in Advanced NSCLC Harboring KRAS G12C Mutation",
+      "conditions": [
+        "NSCLC (Advanced Non-small Cell Lung Cancer)"
+      ],
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Histologically or cytologically documented Stage IIIB or IIIC NSCLC disease not amenable for surgical resection or definitive chemoradiation or Stage IV NSCLC disease.\n2. Known KRAS G12C mutation, and negative results for other driver genes with approved targeted therapies.\n3. Measurable disease according to RECIST 1.1.\n4. An Eastern Cooperative Group (ECOG) performance status of 0 or 1.\n5. Adequate organ function.\n\nExclusion Criteria:\n\n1. Subjects with carcinomatous meningitis or spinal cord compression; or with other evidence indicating that central nervous system (CNS) metastases or leptomeningeal metastases are not yet controlled.\n2. Prior chemotherapy, radiotherapy, immunotherapy or treatment with an investigational agent within 4 weeks of receipt of study drug (within 6 weeks for nitrosoureas, mitomycin C; within 2 weeks of small molecule targeted therapies, traditional medicine with anticancer indication).\n3. History of prior malignancy in the past 3 years, with the exception of curatively treated malignancies.\n4. Gastrointestinal (GI) tract disease causing the inability to take oral medication or affect drug absorption.",
+      "min_age": "18 Years",
+      "max_age": "75 Years",
+      "sex": "ALL",
+      "lead_sponsor": "Jemincare"
+    },
+    {
+      "nct_id": "NCT04198766",
+      "title": "Study of INBRX-106 and INBRX-106 in Combination With Pembrolizumab (Keytruda®) in Subjects With Locally Advanced or Metastatic Solid Tumors (Hexavalent OX40 Agonist)",
+      "conditions": [
+        "Solid Tumor",
+        "Non-Small Cell Lung Cancer",
+        "Head and Neck Cancer",
+        "Melanoma",
+        "Gastric Cancer",
+        "Renal Cell Carcinoma",
+        "Urothelial Carcinoma",
+        "Resectable Non-Small-Cell Lung Cancer"
+      ],
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Select Inclusion Criteria:\n\n* Males or females aged ≥18 years.\n* Parts 1 and 3 (escalation cohorts): Subjects with locally advanced or metastatic non resectable solid tumors, whose disease has progressed despite all standard therapies or for whom no further standard or clinically acceptable therapy exists.\n* Part 2 (single-agent expansion cohort): Subjects with NSCLC, melanoma, HNSCC, G/GEA, RCC, or TCC, with histologically confirmed, locally advanced or metastatic, non-resectable disease, which has progressed despite all standard therapies including CPI or for whom no standard or clinically acceptable therapy exists.\n* Part 4 (expansion cohorts in combination with pembrolizumab, with or without chemotherapy): Subjects with melanoma (all types), HNSCC, G/GEA, RCC, TCC, NSCLC, or MSI-high, TMB-high, MMR-deficient tumors, with histologically confirmed, locally advanced or metastatic, non resectable disease, which is either CPI-naive (melanoma, HNSCC, NPC) or progressed despite all standard therapies including CPI (NSCLC, RCC, TCC, uveal melanoma, MSI-high, TMB-high, or MMR-deficient solid tumors) or for whom no standard or clinically acceptable therapy exists.\n* For Cohort F3 (NSCLC), subjects may have progressed on no more than 2 lines of standard therapy that must include at least one PD-1/L1 regimen.\n* For Cohort F4 (HNSCC and NPC), subjects may be previously treated with no more than 1 prior chemotherapy regimen in metastatic setting. Prior PD-1/L1 in curative (neo-adjuvant/adjuvant) setting is allowed only if completed \\>/= 6 months prior to progression to local recurrence or metastatic disease.\n* For Cohort F8, subjects must have previously untreated, histologically confirmed Stage II, IIIA or IIIB (T3-4N2) NSCLC. Lymph node disease requires histologic confirmation, while T3 disease requires only radiographic documentation. Subjects need to be able to undergo planned surgery.\n* All subjects with non-squamous NSCLC must have documentation of absence of tumor activating EGFR mutations and absence of ALK gene rearrangements.\n* PD-L1 by IHC (22C3): Parts 1 and 3: IHC optional. Part 2: IHC result mandatory but any score allowed. Combined Positive Score (CPS) ≥ 1% (or Tumor Proportion Score ≥50% for NSCLC; for TMB-high tumors, any TPS% is allowed). Part 4: Combined Positive Score (CPS) ≥ 1% (or Tumor Proportion Score ≥50% for NSCLC; for TMB-high tumors, any TPS% is allowed). For Cohort F8, any TPS (including 0%) is acceptable.\n* Adequate hematologic, coagulation, hepatic and renal function and ECOG score as defined per protocol.\n\nSelect Exclusion Criteria:\n\n* Prior exposure to OX40 agonists. Exposure to anti-PD-1 and/or anti PD-L2 CPIs or an agent targeting other co-stimulatory T-cell receptor pathways.\n* Receipt of any investigational product or any approved anticancer drug(s) or biological product(s) within 4 weeks prior to the first dose of study drug with certain exceptions.\n* Hematologic malignancies (e.g., ALL, AML, MDS, CLL, CML, NHL, Hodgkin's lymphoma and multiple myeloma)\n* Prior or concurrent malignancies. Exception: Subjects with a prior or concurrent malignancy whose natural history or treatment does not have the potential to interfere with the safety or efficacy assessments of INBRX-106.\n* Grade ≥ 3 immune-related adverse events (irAEs) or irAE that lead to discontinuation of prior immunotherapy. Some exceptions as defined per protocol apply.\n* Active autoimmune disease or documented history of autoimmune disease that required systemic steroids or other immunosuppressive medications. Certain exceptions as defined in protocol apply.\n* Diagnosis of immunodeficiency or treatment with systemic immunosuppressive medications within 7 days prior to the first dose of study drug. Certain exceptions as defined in protocol apply.\n* History of hepatitis B, hepatitis C, or human immunodeficiency virus (HIV) infection. Exceptions as defined in protocol apply.\n* Active interstitial lung disease (ILD) or pneumonitis or a history of ILD or pneumonitis requiring treatment with steroids or other immunosuppressive medications.\n* Clinically significant cardiac condition, including myocardial infarction, uncontrolled angina, viral myocarditis, cerebrovascular accident, or other acute uncontrolled heart disease \\< 3 months prior to enrollment on this trial; left ventricular ejection fraction (LVEF) \\< 50%; New York Heart Association (NYHA) Class III or IV congestive heart failure; or uncontrolled hypertension; or oxygen saturation \\<92% on room air.\n* Active, hemodynamically significant pulmonary embolism within 12 weeks prior to enrollment on this trial.\n* Major surgery within 4 weeks prior to enrollment on this trial.\n* Anti-infectious drug treatments (i.e., antibiotics) within 4 weeks prior to the first dose of study drug.\n* Prior organ allograft transplantations or allogeneic peripheral blood stem cell (PBSC) or bone marrow (BM) transplantation.\n* Additional in- and exclusion criteria per protocol.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Inhibrx Biosciences, Inc"
+    },
+    {
+      "nct_id": "NCT06123754",
+      "title": "Phase III Study of Envafolimab Versus Placebo Plus Chemotherapy in Resectable Stage III NSCLC",
+      "conditions": [
+        "Non-small Cell Lung Cancer"
+      ],
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Volunteer to participate and sign the informed consent form.\n2. Age ≥ 18 years old, regardless of gender.\n3. Histological and/or cytological diagnosis of resectable stage IIIA-IIIB (N2) NSCLC.\n4. Measurable lesions based on the response evaluation criteria in solid tumors version 1.1（RECIST 1.1）.\n5. Have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 1.\n6. Subjects should provide tumor tissue for detection of PD-L1 expression level.\n7. Sufficient organ and bone marrow function.\n8. Expected survival ≥6 months.\n9. The surgeon assessed that total lung function is able to withstand the proposed pneumonectomy procedure.\n\nExclusion Criteria:\n\n1. Tumor histologically or cytologically confirmed or combined with neuroendocrine carcinoma components, or sarcomatous/sarcomatoid lesions, or adenosquamous carcinoma, or special pathological types.\n2. Previous treatment with another drug that targets T cell receptors (e.g. CTLA-4, OX-40, etc.);\n3. Participants with known EGFR mutation or ALK translocation, and non-squamous cell carcinoma subjects need to identify EGFR and ALK mutation status;\n4. Upper lung sulcus tumor or locally advanced unresectable or metastatic disease.\n5. Previous anti-tumor therapy for the disease.\n6. Subjects with known or suspected interstitial pneumonia.Radiation pneumonia or other moderate to severe lung disease that may interfere with the detection or management of drug-related pulmonary toxicity and seriously affect respiratory function.\n7. Any serious active infection.\n8. With uncontrolled or significant cardiovascular and cerebrovascular disease.\n9. Active autoimmune disease requiring systemic treatment.\n10. Immunosuppressant or systemic hormone therapy (dose \\>10 mg/ day prednisone or other therapeutic hormone) for immunosuppression within 14 days prior to randomization.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "3D Medicines (Sichuan) Co., Ltd."
+    },
+    {
+      "nct_id": "NCT05168566",
+      "title": "Study to Evaluate Sutetinib Maleate Capsule in Locally Advanced or Metastatic Non-small Cell Lung Cancer",
+      "conditions": [
+        "Non-small Cell Lung Cancer"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Age 18 years old and above, male or female.\n2. Histopathological and/or cytopathological confirmation of locally advanced or metastatic NSCLC patients with ≤ 1 prior line of chemotherapy.\n3. Confirmation that the tumor harbors a non-resistant uncommon EGFR mutation (tumor tissue biopsy), including one or more of L861Q, G719X and S768I mutations, excluding any other EGFR sensitive mutations and/or oncogenes..\n4. At least one measurable lesion.\n5. ECOG score of 0, 1, or 2.\n6. A minimum life expectancy of \\> 3 months.\n7. Adequate bone marrow reserve, hepatic, renal and coagulation function.\n8. Willingness of all subjects of childbearing potential to use acceptable methods of birth control.\n\nExclusion Criteria:\n\n1. Ever used the epidermal growth factor receptor-tyrosine kinase inhibitor (EGFR-TKI) for anti-tumor therapy prior to enrollment.\n2. Any systemic anti-tumor therapy such as chemotherapy, immunotherapy and radiation therapy used within 4 weeks prior to enrollment; any palliative radiotherapy for non-target lesions used to relieve symptoms and traditional Chinese medicines indicated for tumor within 2 weeks prior to enrollment.\n3. Use or intake of drugs or foods containing potent inhibitor or inducer of cytochrome P450 isozyme 3A4 (CYP3A4) within 14 days or 5 half-lives, whichever was the longer, prior to enrollment.\n4. Surgical operation (excluding aspiration biopsy) of main organs or a significant injury within 4 weeks prior to enrollment.\n5. Any unresolved toxicities from prior therapy greater than Grade 1 at the time of screening except alopecia.\n6. Inability to swallow the study medication, any seriously chronic gastrointestinal disorder, malabsorption syndrome or any other conditions with influence on gastrointestinal absorption.\n7. Active central nervous system metastases\n8. Previous or current interstitial lung disease, radiation pneumonitis which requires hormone therapy, or drug-related pneumonia, idiopathic interstitial pulmonary fibrosis identified in a baseline CT scan; uncontrolled massive pleural or pericardial effusion.\n9. Any active infection which has not been controlled at screening.\n10. Any serious cardiovascular disease.\n11. History of other serious systemic disease not suitable for clinical trial.\n12. Participation in other interventional clinical trial 4 weeks prior to enrollment or within 5 half-lives from the last dose of investigational product (whichever is longer).\n13. Known alcohol or drug dependence.\n14. Mental disorders or poor compliance.\n15. Previously received solid organ transplantation or hematopoietic stem cell transplantation.\n16. Females who are pregnant or breastfeeding.\n17. Known hypersensitivity to the active ingredients or excipients of the investigational product.\n18. Have any other primary malignant tumors within 3 years (except some low- risk cancers).",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Teligene US"
+    },
+    {
+      "nct_id": "NCT07279402",
+      "title": "TRIMPACT: Real-World First-Line Atezolizumab Use in Stage IV NSCLC With PD-L1 ≥50%",
+      "conditions": [
+        "NSCLC Stage IV",
+        "PD-L1 Gene Mutation",
+        "Atezolizumab",
+        "Real World Study"
+      ],
+      "phases": [],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Signed informed consent form.\n* Diagnosis of stage IV non-small cell lung cancer.\n* Male or female patients aged 18 years or older.\n* Patients who have been prescribed atezolizumab in accordance with routine clinical practice and the locally approved indication in Türkiye.\n* Patients who have received up to 3 cycles of atezolizumab at the screening visit.\n\nExclusion Criteria:\n\n* Patients who are not receiving atezolizumab for the treatment of lung cancer according to standard of care and the approved indication.\n* Known or suspected hypersensitivity to atezolizumab.\n* Pregnant or breastfeeding women.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Antalya Training and Research Hospital"
+    },
+    {
+      "nct_id": "NCT05657873",
+      "title": "A Study of Targeted Radiation Therapy in People With Non-Small Cell Lung Cancer (NSCLC)",
+      "conditions": [
+        "Non Small Cell Lung Cancer",
+        "Non Small Cell Lung Cancer Metastatic",
+        "Non-small Cell Carcinoma",
+        "NSCLC",
+        "NSCLC Stage IV"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Be greater than 18 years of age on day of signing informed consent.\n* Have a histologically confirmed diagnosis of stage IV NSCLC (includes patients who have progressed on durvalumab for Stage III NSCLC) without known mutations in (EGFR) or BRAF or rearrangements in ALK (anaplastic lymphoma kinase) or ROS-1.\n\n  o Patients with recurrent metastatic NSCLC following prior durvalumab for stage III disease are eligible provided this is their first immunotherapy course for metastatic disease (i.e., the planned anti-PD-(L)1-based regimen represents first-line systemic therapy in the metastatic setting).\n* Newly diagnosed metastatic non-small cell lung cancer (NSCLC), including both de novo and secondary metastatic disease, with one or more liver metastases\n* Plan to initiate standard of care anti-PD-(L)1 based immunotherapy +/- platinum based chemotherapy for at least 3 cycles\n\n  o Regimens combining anti-CTLA-4 immunotherapy with anti-PD-1 (e.g., ipilimumab plus nivolumab) or anti-PD-L1 (e.g., tremelimumab plus durvalumab) immunotherapy are allowed.\n* Have a performance status of 0-2 on the ECOG Performance Scale.\n* Liver function tests:\n\n  * Total Bilirubin ≤ 1.5 x ULN\n  * AST/ ALT ≤ 5 x ULN\n* Eligible for L- SABR to all liver metastases as determined by the treating radiation oncologist\n* Patients with known HIV are eligible provided they are under treatment with effective anti-retroviral therapy with CD4 count \\>200 cells/microliter within 28 days prior to registration\n\nExclusion Criteria:\n\n* Patients with a prior or concurrent malignancy whose natural history or treatment does not have the potential to interfere with the safety or efficacy assessment of the investigational regimen should be included.\n* Patients with prior external beam radiation therapy to the liver.\n* Patients with known active Hepatitis B or Hepatitis C.\n* Patients with immunosuppression including pharmacological immunosuppression with chronic steroids or immune modulators like cyclosporin or methotrexate and patients with active autoimmune disease.\n* Patients who are pregnant or breastfeeding\n* Men or women not using effective contraception.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Memorial Sloan Kettering Cancer Center"
+    },
+    {
+      "nct_id": "NCT05361174",
+      "title": "A Study to Investigate the Efficacy and Safety of an Infusion of IOV-4001 in Adult Participants With Unresectable or Metastatic Melanoma or Stage III or IV Non-small-cell Lung Cancer",
+      "conditions": [
+        "Unresectable Melanoma",
+        "Metastatic Melanoma",
+        "Stage III Non-small Cell Lung Cancer",
+        "Stage IV Non-small Cell Lung Cancer"
+      ],
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Participants must have a confirmed diagnosis of Stage IIIC, IIID, or IV unresectable or metastatic melanoma or Stage III or IV NSCLC.\n2. Participants who have received the following previous therapy:\n\n   1. Cohort 1 (Melanoma): Participants who have progressed within 12 weeks of last dose of anti-PD-1/PD-L1 blocking antibody and received BRAF/MEK inhibitor in those with BRAF mutations.\n   2. Cohort 2 (NSCLC): Participants who should have received no more than 3 prior lines of therapy and:\n\n      * those without oncogene-driven tumors: Have progressed within 12 weeks after last dose of anti-PD-1/PD-L1 blocking antibody\n      * those with oncogene-driven tumors: Have progressed during/after ≥1 targeted therapy AND either:\n\n        * platinum doublet chemotherapy\n        * Or within 12 weeks after last dose of anti-PD-1/PD-L1 blocking antibody\n3. Participants who have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n4. Participants who is assessed as having at least one resectable lesion.\n5. Participants who have at least one measurable lesion, following resection of the lesion for IOV-4001 generation.\n6. Participants who have adequate organ function.\n7. Cardiac function test required.\n8. Pulmonary function test may be required.\n9. Participants of childbearing potential or those with partners of childbearing potential must be willing to practice an approved method of highly effective birth control during treatment and up to 12 months.\n10. Participants who are \\>70 years of age may be allowed to enroll after the investigator discusses with the medical monitor.\n\nExclusion Criteria:\n\n1. Participants who have melanoma of uveal/ocular origin.\n2. Participants who have symptomatic untreated brain metastases.\n3. Participants who have had a history of allogeneic organ transplant or any form of cell therapy involving prior conditioning chemotherapy within the past 20 years.\n4. Participants who require systemic steroid therapy 10 mg/day prednisone or another steroid equivalent dose.\n5. Participants who have any form of primary immunodeficiency.\n6. Participants who have another primary malignancy within the previous 3 years.\n7. Participants who have received or will receive a live or attenuated vaccination within 28 days prior to the start of the NMA-LD.",
+      "min_age": "18 Years",
+      "max_age": "70 Years",
+      "sex": "ALL",
+      "lead_sponsor": "Iovance Biotherapeutics, Inc."
+    },
+    {
+      "nct_id": "NCT06284317",
+      "title": "A Study to Evaluate the Benefit of Adding Durvalumab After Chemotherapy, Durvalumab and Surgery in Patients With Early-stage, Operable, Non-small Cell Lung Cancer.",
+      "conditions": [
+        "Non Small Cell Lung Cancer"
+      ],
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria for enrolment:\n\n* Histologically confirmed NSCLC.\n* Stage IIB-IIIB (T1-4 N0-2) according to 8th edition of the TNM staging system of lung cancer.\n\nStage III assessment should include samples of lymph nodes at levels 4, bilaterally, and level 7 to rule out stage IIIB N3 disease.\n\nT4 tumours will only be eligible if they are defined as T4 based only on their size (\\>7cm); any other reason will be considered ineligible.\n\n* Known PD-L1 status, as tested locally using a validated assay. To ensure comparability of results, it is strongly encouraged that PD-L1 testing is done with the Ventana PD-L1 (SP263) assay.\n* Absence of EGFR mutation or ALK translocation, as tested locally.\n* Primary tumour resectable and functionally operable as assessed per local multidisciplinary tumour board (cardiac evaluation, pulmonary function and diffusion capacity, comorbidity).\n* Adequate haematological function:\n\nHaemoglobin ≥90 g/L, Absolute neutrophil count (ANC) ≥1.0× 109/L, Platelet count ≥75× 109/L.\n\n\\- Adequate renal function: Measured creatinine clearance (CL) \\>40 mL/min or calculated CL \\>40 mL/min calculated by the Cockcroft-Gault.\n\n\\- Adequate liver function: ALT and AST ≤2.5× institutional ULN, Total serum bilirubin ≤1.5× institutional ULN (patients with Gilbert's syndrome may be allowed to be enrolled after consultation with the Medical Affairs Team at the ETOP IBCSG Partners Foundation.\n\n* Eastern Cooperative Oncology Group (ECOG) performance status 0-1.\n* Age ≥18 at the time of enrolment.\n* Body weight \\>30 kg.\n* Life expectancy of at least 12 weeks.\n* Women of childbearing potential, including women who had their last menstruation in the last 2 years, must have a negative urinary or serum pregnancy test at screening before enrolment. Pregnancy test must be repeated within 3 days before the first dose of protocol treatment.\n* Written IC for study participation must be signed and dated by the patient and the investigator prior to any study-related intervention.\n\nEligibility Criteria for randomisation:\n\n* Surgical resection must have been completed. Note: Participants who have had only had segmentectomy or wedge resections are not eligible for randomisation.\n* Patients must have complete resection: R0 or R1 resection.\n* Patients must be fit to receive adjuvant treatment with durvalumab.\n* Patients must have no evidence of metastatic disease as assessed by CT scan.\n* Documentation of pathological response as per local review must be available.\n\nExclusion Criteria for enrolment:\n\n* T4 with invasion of heart, great vessels, carina, trachea, oesophagus, or spine.\n* Any previous or concurrent treatments for NSCLC.\n* Any previous immunotherapy.\n* Major surgical procedure (as per investigators assessment) within 28 days before enrolment.\n* History of allogenic organ transplantation.\n* Active or prior documented autoimmune disease or inflammatory disorders (including inflammatory bowel disease \\[e.g., colitis or Crohn's disease\\], systemic lupus erythematosus, Sarcoidosis syndrome, or Wegener syndrome \\[granulomatosis with polyangiitis, Graves' disease, rheumatoid arthritis, hypophysitis, uveitis, etc.\\]). The following are exceptions to this criterion:\n\nPatients with vitiligo or alopecia. Patients with type I diabetes. Patients with hypothyroidism (e.g., following Hashimoto syndrome) stable on hormone replacement.\n\nAny chronic skin condition that does not require systemic therapy. Patients without active disease in the last 5 years may be included but only after consultation with the Medical Affairs Team at the ETOP IBCSG Partners Foundation.\n\nPatients with celiac disease controlled by diet alone.\n\n* Uncontrolled intercurrent illness, including but not limited to, ongoing or active infection, symptomatic congestive heart failure, uncontrolled hypertension, unstable angina pectoris, cardiac arrhythmia, interstitial lung disease (ILD), or serious chronic gastrointestinal conditions associated with diarrhoea.\n* Psychiatric illness/social situations that would limit compliance with study requirement, substantially increase risk of incurring AEs or compromise the ability of the patient to give written informed consent.\n* History of another primary malignancy except for:\n\nMalignancy treated with curative-intent and with no known active disease 5 years before the first dose of durvalumab and of low potential risk for recurrence.\n\nAdequately treated non-melanoma skin cancer or lentigo maligna without evidence of disease.\n\nAdequately treated carcinoma in situ without evidence of disease.\n\n* History of leptomeningeal carcinomatosis.\n* History of active primary immunodeficiency.\n* Active hepatitis infection, positive hepatitis C virus (HCV) antibody, hepatitis B virus (HBV) surface antigen (HbsAg) or HBV core antibody (anti-HBc).\n\nParticipants with a past or resolved HBV infection (defined as the presence of anti-HBc and absence of HbsAg) are eligible.\n\nParticipants positive for HCV antibody are only eligible if polymerase chain reaction is negative for HCV RNA.\n\n* Known HIV infection that is not well-controlled. All of the following criteria are required to define an HIV infection that is well controlled: undetectable viral RNA load for 3 months, CD4+ count of 500 cell per mm3, no history of AIDS-defining opportunistic infection within the past 12 months, and stable for at least 3 months on the same anti-HIV medication.\n* Current or prior use of immunosuppressive medication within 14 days before the first dose of durvalumab. The following are exceptions to this criterion:\n\nIntranasal, inhaled, topical steroids, or local steroid injections (e.g., intra articular injection).\n\nSystemic corticosteroids at physiologic doses not exceeding 10 mg/day of prednisone or its equivalent.\n\nSteroids as premedication for hypersensitivity reactions (e.g., CT scan premedication).\n\n\\- Receipt of live attenuated vaccine within 30 days prior to the first dose of durvalumab.\n\nNote: Patients in the ADOPT-lung trial, should not receive live vaccine whilst receiving durvalumab and for up to 30 days after the last dose.\n\nConcurrent enrolment in another interventional clinical trial.\n\n* Known allergy or suspected hypersensitivity to durvalumab or its excipients.\n* Judgment by the investigator that the patient should not participate in the study if the patient is unlikely to comply with study procedures, restrictions, and requirements.\n* Female patients who are pregnant or in the period of lactation.\n* Female patients of childbearing potential and sexually active men who are not willing to use a highly effective contraceptive method during the trial until at least 90 days after the last dose of protocol treatment.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "ETOP IBCSG Partners Foundation"
+    },
+    {
+      "nct_id": "NCT07491497",
+      "title": "A Phase 1/2 Study of TRI-611 in ALK-Positive NSCLC",
+      "conditions": [
+        "ALK-positive NSCLC",
+        "ALK-Positive Lung Cancer",
+        "ALK-positive Non-small Cell Lung Cancer"
+      ],
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Pathologically confirmed diagnosis of ALK-positive non-small cell lung cancer (NSCLC)\n* Measurable disease per RECIST v1.1\n* Adequate bone marrow reserve and organ function\n* Part 1: prior treatment with 2 to 3 ALK TKIs, prior treatment with lorlatinib is required but must not have been in the first line\n* Part 2 Cohort M1: prior treatment with 2 to 3 ALK TKIs, prior treatment with lorlatinib is required but must not have been in the first line, prior treatment with neladalkib is excluded\n* Part 2 Cohort M2: prior treatment with more than 3 ALK TKIs, prior treatment with lorlatinib and neladalkib is required but neither may have been in the first line\n* Part 2 Cohort M3: participants without prior ALK TKI treatment\n\nExclusion Criteria:\n\n* Participant's cancer has any additional driver alterations known to be a mechanism of resistance to ALK TKIs\n* For participants with central nervous system (CNS) metastases or spinal cord compression, they must not be associated with progressive neurological symptoms or require increasing doses of corticosteroids to control the CNS disease\n* Ongoing treatment with another anticancer treatment or investigational agent\n* Known allergy/hypersensitivity to TRI-611 or any of its ingredients\n* Major surgery within 4 weeks of receiving the first dose of TRI-611",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "TRIANA Biomedicines, Inc."
+    },
+    {
+      "nct_id": "NCT06875310",
+      "title": "A Study of Adagrasib Plus Pembrolizumab Plus Chemotherapy vs. Placebo Plus Pembrolizumab Plus Chemotherapy in Participants With Previously Untreated Non-squamous Non-small Cell Lung Cancer With KRAS G12C Mutation (KRYSTAL-4)",
+      "conditions": [
+        "Carcinoma, Non-Small-Cell Lung"
+      ],
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed diagnosis of non-squamous NSCLC with evidence of KRAS G12C mutation via tumor sample and/or circulating tumor deoxyribonucleic acid (ctDNA).\n* Locally advanced or metastatic disease.\n* Measurable disease via computed tomography (CT) or magnetic resonance imaging (MRI) per RECIST v1.1 criteria of at least 1 lesion.\n* No prior systemic anti-cancer therapy given for advanced or metastatic disease.\n* Not a candidate for definitive therapy (eg, chemoradiation or complete surgical resection).\n* Participants with brain metastases are eligible for enrollment, including those with untreated brain metastases. Brain metastases must be asymptomatic and not in need of immediate local therapy. Any untreated brain metastases must be ≤ 20 mm in diameter.\n* Any PD-L1 expression (0 to 100%) as determined by VENTANA PD-L1 (SP263) assay, Agilent PD-L1 IHC 22C3 pharmDx, or Agilent PD-L1 IHC 28-8 pharmDx.\n\nExclusion Criteria:\n\n* Participants with an active autoimmune or inflammatory disease requiring systemic treatment within 2 years.\n* Uncontrolled or significant cardiovascular conditions within 6 months prior to enrollment that are ongoing or with risk of recurrence.\n* Inadequate bone marrow or liver function or electrocardiogram (ECG) abnormalities.\n* Ongoing treatment with concomitant medication known to cause prolonged QTc interval and that cannot be switched to alternative treatment prior to study entry.\n* Treatment targeting KRAS G12C mutation (eg, sotorasib, adagrasib) in any setting.\n* Other severe acute or chronic medical or psychiatric condition or laboratory abnormality that may increase the risk associated with study participation or study drug administration.\n* Other protocol-defined Inclusion/Exclusion criteria apply.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Mirati Therapeutics Inc."
+    },
+    {
+      "nct_id": "NCT06416410",
+      "title": "JAB-21822 Combined With JAB-3312 Compared SOC in the First Line for Treatment of Advanced Non-small Cell Lung Cancer With KRAS p.G12C Mutation",
+      "conditions": [
+        "Advanced Non-squamous Non-small-cell Lung Cancer",
+        "Metastatic Non-squamous Non Small Cell Lung Cancer"
+      ],
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* A signed written informed consent is required before performing any study-related operations\n* Age greater than or equal to 18 years old\n* Histologically or cytologically confirmed locally advanced/metastatic, unresectable non-squamous NSCLC with KRAS p. G12C mutation confirmed by the central lab\n* No history of systemic anticancer therapy to the local advanced/metastatic disease\n* Expected survival period greater than or equal to 3 months\n* Having at least one target lesion according to RECIST 1.1\n* Eastern Cooperative Oncology Group (ECOG) ≤ 1\n\nExclusion Criteria:\n\n* Previous (≤2 years) or current solid tumors or hematologic tumors of other pathological types\n* Carry other driver gene mutations with available target therapy, or carry other KRAS mutations\n* Subjects with untreated central nervous system (CNS) metastases were excluded;\n* Uncontrolled pleural effusion, pericardial effusion, and ascites\n* Subjects with impaired heart function or clinically significant heart disease",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Allist Pharmaceuticals, Inc."
+    },
+    {
+      "nct_id": "NCT07183189",
+      "title": "A Study of SHR-A2009 Combined With Aumolertinib Versus Aumolertinib for First-line Treatment in EGFR-mutated, Advanced or Metastatic NSCLC",
+      "conditions": [
+        "Non-small Cell Lung Cancer"
+      ],
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Age 18 to 75 years (inclusive) at the time of signing informed consent, regardless of gender.\n2. Subjects with histologically or cytologically confirmed locally advanced, metastatic, or recurrent non-small cell lung cancer, with EGFR mutations confirmed by tissue or blood specimens.\n3. No prior systemic therapy for locally advanced, metastatic, or recurrent non-small cell lung cancer.\n4. At least one measurable tumor lesion according to RECIST v1.1.\n5. ECOG performance status of 0 or 1.\n6. Expected survival time ≥12 weeks.\n7. Adequate bone marrow and organ function.\n8. Subjects must provide informed consent prior to the trial and voluntarily sign a written informed consent form.\n\nExclusion Criteria:\n\n1. Histologically or cytologically confirmed combined small cell lung cancer (SCLC), neuroendocrine carcinoma, sarcomatoid carcinoma, or carcinosarcoma components.\n2. Subjects with a history of leptomeningeal metastasis, brainstem metastasis, or spinal cord metastasis.\n3. Subjects with uncontrolled tumor-related pain, as determined by the investigator.\n4. Clinically uncontrolled third-space fluid accumulation, as determined by the investigator.\n5. Insufficient time interval between prior antitumor therapy and the first dose administration.\n6. Major organ surgery or significant trauma within 4 weeks prior to the first dose of the study drug.\n7. History of other malignancies within ≤5 years prior to the first dose.\n8. Subjects with a history of interstitial lung disease, or imaging at screening suggestive of suspected interstitial lung disease; or other moderate to severe pulmonary diseases severely affecting lung function.\n9. Severe cardiovascular or cerebrovascular diseases.\n10. Any severe or uncontrolled ocular lesions that, in the physician's judgment, may increase the patient's safety risk.\n11. Refractory nausea, vomiting, chronic gastrointestinal diseases, etc.\n12. Severe infections within 4 weeks prior to the first dose.\n13. Subjects with arterial/venous thromboembolic events within 6 months prior to the first dose of the study drug.\n14. Active tuberculosis infection.\n15. History of immunodeficiency, including positive HIV test.\n16. Active hepatitis B or hepatitis C.\n17. Prior allogeneic hematopoietic stem cell transplantation or organ transplantation.\n18. History of severe allergic reactions to aumolertinib or other monoclonal antibodies, or hypersensitivity to any component of SHR-A2009.\n19. Known history of alcohol or drug dependence or drug abuse.\n20. Psychiatric disorders or poor compliance.",
+      "min_age": "18 Years",
+      "max_age": "75 Years",
+      "sex": "ALL",
+      "lead_sponsor": "Suzhou Suncadia Biopharmaceuticals Co., Ltd."
+    },
+    {
+      "nct_id": "NCT05037825",
+      "title": "The Gut Microbiome and Immune Checkpoint Inhibitor Therapy in Solid Tumors",
+      "conditions": [
+        "Non-Small-Cell Lung Carcinoma",
+        "Malignant Melanoma",
+        "Renal Cell Carcinoma",
+        "Triple-Negative Breast Cancer"
+      ],
+      "phases": [],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Men or women ≥18 years of age\n2. Screened negative for COVID-19 symptoms at time of consent, as per institutional policy and as applicable for the duration of the COVID-19 pandemic\n3. Diagnosed with stages I-IV primary NSCLC, MM, TNBC or RCC\n4. Plan to be treated at a partner cancer site with a checkpoint inhibitor (anti-PD-1, anti-PD-L1, or anti-CTLA-4) as a single agent or in combination with another checkpoint inhibitor or other treatment agent or modality (e.g., targeted therapy, chemotherapy, surgery, radiation, etc.) in accordance with FDA-labeled use of the agent\n5. Able to provide informed consent and answer study questionnaires in either English or Spanish\n6. Able to provide stool specimens for research purposes\n\nExclusion Criteria:\n\n1. Mental incapacity\n2. Incarcerated individuals\n3. Pregnancy (by self-report of pregnancy status)\n4. Experiencing active brain metastasis/metastases\n5. Treatment with checkpoint inhibitor in off-label capacity or through a clinical/interventional trial\n6. Active participation in an immuno-oncology clinical/interventional trial or pharma-sponsored observational study",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "VastBiome"
+    },
+    {
+      "nct_id": "NCT06244771",
+      "title": "A Study Evaluating FMC-376 in Participants With KRAS G12C Mutated Solid Tumors",
+      "conditions": [
+        "Advanced Solid Tumors With KRAS G12C Mutations",
+        "Solid Tumor, Adult",
+        "Unresectable Solid Tumor",
+        "Metastatic Solid Tumor",
+        "Non Small Cell Lung Cancer",
+        "Colorectal Cancer",
+        "KRAS G12C",
+        "Pancreatic Cancer"
+      ],
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed locally advanced unresectable or metastatic solid tumors with KRAS G12C mutation\n* Received and progressed or been intolerant to prior standard therapy OR standard therapy is considered inappropriate OR an investigational agent is considered standard of care\n* Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1\n* Adequate hematological, renal, and hepatic function\n* Agrees not to participate in another interventional study while receiving study drug\n\nExclusion Criteria:\n\n* Leptomeningeal disease or carcinomatous meningitis\n* Clinically significant toxicity resulting from prior cancer therapies\n* Known or suspected hypersensitivity to FMC-376 or any components of the study drug\n* Condition that would interfere with study drug absorption\n* Any illness or medical history that would impact safety or compliance with study requirements or impact ability to interpret study data",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Frontier Medicines Corporation"
+    },
+    {
+      "nct_id": "NCT06253871",
+      "title": "A Phase 1/1b Study of IAM1363 in HER2 Cancers",
+      "conditions": [
+        "HER2 Mutation-Related Tumors",
+        "HER2",
+        "HER2-positive Breast Cancer",
+        "HER2 + Breast Cancer",
+        "Brain Metastases From Solid Tumors",
+        "Brain Metastases From HER2 and Breast Cancer",
+        "CNS Metastases",
+        "HER2-Positive Solid Tumors",
+        "NSCLC (Non-small Cell Lung Cancer)",
+        "HER2-positive Bladder Cancer",
+        "HER2-positive Colorectal Cancer",
+        "HER2 + Gastric Cancer",
+        "HER2-positive Gastroesophageal Cancer"
+      ],
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Key Inclusion Criteria:\n\n* Age ≥ 18 years\n* Have relapsed/refractory HER2-altered malignancy; for selected cohorts, prospective confirmation of HER2 alteration by central testing is required\n* Have progression of disease after the last systemic therapy, or be intolerant of last systemic therapy\n* Have radiographically measurable disease by RECIST v1.1 and/or RANO-BM\n* Eastern Cooperative Oncology Group (ECOG) performance score 0-1\n* Have adequate baseline hematologic, liver and renal function\n* Have left ventricular ejection fraction (LVEF) ≥ 50%\n* Able to swallow oral medication\n\nKey Exclusion Criteria:\n\n* Clinically significant cardiac disease\n* Infection with human immunodeficiency virus (HIV)-1 or HIV-2. Exception: Participants with well-controlled HIV (e.g., CD4 \\>350/mm3 and undetectable viral load) are eligible\n* Current active liver disease including hepatitis A, hepatitis B , or hepatitis C\n* Refractory nausea and vomiting, malabsorption, external biliary shunt, or significant small bowel resection that would preclude adequate absorption\n* Uncontrolled diabetes\n* History of solid organ transplantation\n* History of Grade ≥2 CNS hemorrhage, or any CNS hemorrhage within 28 days before C1D1\n* Prior history of non-infectious interstitial lung disease (ILD). (Exceptions: participants with prior grade 1 ILD that has completely resolved are eligible)\n* Participants requiring immediate local therapy for brain metastases",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Iambic Therapeutics, Inc"
+    },
+    {
+      "nct_id": "NCT07288034",
+      "title": "Immunotherapy Biomarkers to Predict First-line PD(L)1-based Immunotherapy Response and Selection of Second-line Treatment in Stage IIIB-IV Non-small Cell Lung Cancer, IMMUNO-BIOMAP Trial",
+      "conditions": [
+        "Lung Non-Small Cell Carcinoma",
+        "Stage IIIB Lung Cancer AJCC v8",
+        "Stage IV Lung Cancer AJCC v8"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Documented informed consent of the participant and/or legally authorized representative. (Adult patients lacking capacity to consent may participate if they have a caretaker that could ensure compliance.)\n* Participants must have either A) HopeSeq or Tempus molecular testing results reported within 3 months prior to enrollment or currently in process OR B) archival or new biopsy tissue available (to be sent to Tempus). Acceptable sample types include: two formalin-fixed paraffin-embedded (FFPE) tissue core biopsies, or two 25um sections of 5-10mm\\^2 tissue, or 15-20 unstained slides at 10um thickness (a minimum of 10 unstained slides must be provided)\n* Agreement to blood collection for ctDNA research\n* Age: ≥ 18 years\n* Eastern Cooperative Oncology Group (ECOG) ≤ 2\n* Histologically confirmed stage IIIB or IV NSCLC\n* Absence of sensitizing EGFR mutation or ALK/ROS1 alteration\n* Scheduled to begin treatment with a Food and Drug Administration (FDA) approved PD1/PDL1 antibody with or without chemotherapy. Participants who have already started treatment with anti-PD1/PDL1 in this setting may enroll if they have only received up to 4 cycles of treatment so far. Patients who have received PD1/PDL1 antibody for early-stage NSCLC are allowed to enroll if they completed the therapy at least 6 months before starting trial therapy\n* Measurable disease by RECIST version (v) 1.1\n* Absolute neutrophil count (ANC) ≥ 1,500/mm\\^3\n\n  * NOTE: Growth factor is not permitted within 14 days of ANC assessment\n* Platelets ≥ 100,000/mm\\^3\n\n  * NOTE: Platelet transfusions are not permitted within 14 days of platelet assessment\n* Hemoglobin ≥ 9g/dL\n\n  * NOTE: Red blood cell transfusions are not permitted within 14 days of hemoglobin assessment\n* Total bilirubin ≤ 1.5 x upper limit of normal (ULN)\n* Aspartate aminotransferase (AST) ≤ 3.0 x ULN (5 x ULN allowed if liver metastases)\n* Alanine aminotransferase (ALT) ≤ 3.0 x ULN (5 x ULN allowed if liver metastases)\n* Creatinine clearance of ≥ 50 mL/min per the Cockcroft-Gault formula\n* If seropositive for HIV, hepatitis C virus (HCV), or hepatitis B virus (HBV), nucleic acid quantitation must be performed. Viral load must be undetectable\n\n  * HIV-infected patients on effective anti-retroviral therapy with undetectable viral load within 6 months are eligible for this trial\n* Women of childbearing potential (WOCBP): negative urine or serum pregnancy test\n\n  * If the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required\n* Agreement by females and males of childbearing potential to use an effective method of birth control or abstain from heterosexual activity for the course of the study through at least 3 months after the last dose of protocol therapy\n\n  * Childbearing potential defined as not being surgically sterilized (men and women) or have not been free from menses for \\> 1 year (women only)\n* PART II: Documented informed consent (for Part II) of the participant and/or legally authorized representative.\n\n  * Assent, when appropriate, will be obtained per institutional guidelines\n* PART II: ECOG ≤ 2\n* PART II: Fully recovered from the acute toxic effects (except alopecia) to ≤ grade 1 to prior anti-cancer therapy\n* PART II: ANC ≥ 1,500/mm\\^3\n\n  * NOTE: Growth factor is not permitted within 14 days of ANC assessment\n* PART II: Platelets ≥ 100,000/mm\\^3\n\n  * NOTE: Platelet transfusions are not permitted within 14 days of platelet assessment\n* PART II: Hemoglobin ≥ 9g/dL\n\n  * NOTE: Red blood cell transfusions are not permitted within 14 days of hemoglobin assessment\n* PART II: Total bilirubin ≤ 1.5 x ULN\n* PART II: AST ≤ 3.0 x ULN (5 x ULN allowed if liver metastases)\n* PART II: ALT ≤ 3.0 x ULN (5 x ULN allowed if liver metastases)\n* PART II: Creatinine clearance of ≥ 50 mL/min per the Cockcroft-Gault formula\n\nExclusion Criteria:\n\n* Surgical intervention within 4 weeks prior to study treatment, except for minor procedures such as port placement\n* Patients with a condition requiring systemic treatment with corticosteroids (\\> 10 mg daily prednisone equivalent) within 7 days or another immunosuppressive medication within 30 days of the first dose of study treatment. Inhaled or topical steroids, and adrenal replacement steroid doses ≤ 10 mg daily prednisone equivalent, are permitted in the absence of active autoimmune disease\n* Radiation therapy within 7 days prior to day 1 of protocol therapy\n* Clinically significant (i.e., active) cardiovascular disease: cerebral vascular accident/stroke or myocardial infarction within 6 months of enrollment, unstable angina, congestive heart failure (New York Heart Association \\[NYHA class\\] ≥ III), or serious uncontrolled cardiac arrhythmia requiring medication\n* Active autoimmune disease or history of autoimmune disease that required systemic treatment within 2 years before starting treatment, i.e., with use of disease-modifying agents or immunosuppressive drugs\n* Symptomatic central nervous system (CNS) metastases or leptomeningeal carcinomatosis, except for individuals who have 1) previously-treated CNS metastases, are asymptomatic, and have had no requirement for steroid medication for 1 week prior to the first dose of study drug and have completed radiation 2 weeks prior to the first dose of study drug OR 2) untreated brain metastases that are asymptomatic and stable\n* Prior history of interstitial lung disease (ILD) or non-infectious pneumonitis requiring high-dose glucocorticoids\n* Active infection requiring antibiotics\n* Other active malignancy. Patients with concurrent malignancy other than non-melanoma skin cancer are not eligible for this trial due to potential confounding of the ctDNA results\n* Females only: Pregnant or breastfeeding\n* PART II: Surgical intervention within 4 weeks prior to study treatment, except for minor procedures such as port placement\n* PART II: Radiation therapy within 7 days prior to day 1 of protocol therapy\n* PART II ARM A ONLY: Patients with a condition requiring systemic treatment with corticosteroids (\\> 10 mg daily prednisone equivalent) within 7 days or another immunosuppressive medication within 30 days of the first dose of study treatment. Inhaled or topical steroids, and adrenal replacement steroid doses ≤ 10 mg daily prednisone equivalent, are permitted in the absence of active autoimmune disease\n* PART II ARM A ONLY: Patients with prior history of cytotoxic T-lymphocyte-associated antigen 4 (CTLA-4) treatment\n* PART II ARM B ONLY: Patients with prior history of KRAS G12C inhibitors\n* PART II: Clinically significant (i.e., active) cardiovascular disease: cerebral vascular accident/stroke or myocardial infarction within 6 months of enrollment, unstable angina, congestive heart failure (New York Heart Association class ≥ III), or serious uncontrolled cardiac arrhythmia requiring medication\n* PART II ARM A ONLY: Active autoimmune disease or history of autoimmune disease that required systemic treatment within 2 years before starting treatment, i.e., with use of disease-modifying agents or immunosuppressive drugs\n* PART II ARM B ONLY: Grade ≥ 2 proteinuria as demonstrated by ≥ 2+ protein and ≥ 1.0 g of protein with 24-hour urine collection (patients found to have ≥ 2+ protein on dipstick urinalysis must have 24-hour urine collection and demonstrate \\< 1g of protein in 24 hours in order to be eligible for treatment)\n* PART II: Clinical evidence of central nervous system (CNS) metastases or leptomeningeal carcinomatosis, except for individuals who have 1) previously-treated CNS metastases, are asymptomatic, and have had no requirement for steroid medication for 1 week prior to the first dose of study drug and have completed radiation 2 weeks prior to the first dose of study drug OR 2) untreated brain metastases that are asymptomatic and stable\n* PART II: Clinically significant uncontrolled illness\n* PART II: Active infection requiring antibiotics\n* PART II: Other active malignancy\n* PART II FEMALES ONLY: Pregnant or breastfeeding\n* PART II: Any other condition that would, in the investigator's judgment, contraindicate the patient's participation in the clinical study due to safety concerns with clinical study procedures",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "City of Hope Medical Center"
+    },
+    {
+      "nct_id": "NCT07538804",
+      "title": "A Study to Investigate ANS02 in Participants With EGFR Mutation-Positive Non-Small Cell Lung Cancer",
+      "conditions": [
+        "Non-Small Cell Lung Cancer"
+      ],
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Eastern Cooperative Oncology Group (ECOG) Performance Status: 0-1\n* Life expectancy ≥ 12 weeks\n* Measurable disease per RECIST v1.1\n* Adequate organ and marrow function as defined in the protocol\n* With documentation of EGFR alteration\n\nExclusion Criteria:\n\n* Active infection including tuberculosis and HBV, HCV or HIV\n* Known active or untreated CNS metastases\n* Participants with carcinomatous meningitis or meningeal metastases, or spinal cord compression\n* Participants with serious cardiovascular or cerebrovascular diseases",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Avistone Biotechnology Co., Ltd."
+    },
+    {
+      "nct_id": "NCT07596121",
+      "title": "Serplulimab Monotherapy in Elderly Patients With NSCLC and PD-L1 TPS ≥ 50%",
+      "conditions": [
+        "NSCLC (Non-small Cell Lung Cancer)"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* 1.Voluntary participation and informed consent: Subjects must voluntarily join the study, sign the written informed consent form (ICF), and demonstrate good compliance.\n\n  2.Age and Gender: Aged ≥65 years at the time of signing the ICF, regardless of gender.\n\n  3.Diagnosis and Staging: Histologically or cytologically confirmed Stage IIIB (ineligible for definitive chemoradiotherapy), Stage IIIC, or Stage IV NSCLC according to the AJCC 8th edition staging system.\n\n  4.PD-L1 Expression: Tumor tissue confirmed as PD-L1 TPS≥50% by a central laboratory or a validated local laboratory, using SP263 or 22C3 assays (a formal test report must be provided).\n\n  5.Driver Gene Status: Known absence of actionable driver mutations, including but not limited to EGFR sensitive mutations, ALK fusions, and ROS1 fusions.\n\n  6.Measurable Disease: At least one measurable target lesion per RECIST v1.1 criteria (lesions must not have received prior radiotherapy).\n\n  7.Prior Treatment History: No prior systemic therapy for advanced or metastatic disease. For patients who received adjuvant or neoadjuvant chemotherapy, inclusion is permitted if disease recurrence occurred ≥6 months after the completion of the last dose.\n\n  8.Performance Status: Eastern Cooperative Oncology Group (ECOG) performance status (PS) score of 0-2.\n\n  9.Adequate organ and bone marrow function (no blood transfusions or hematopoietic stimulating factor therapy within 14 days prior to the first dose):\n  * Absolute Neutrophil Count (ANC)≥1.5 x 10\\^9//L\n  * Platelet Count (PLT)≥100 x 10\\^9//L\n  * Hemoglobin (Hb)≥90 g/L\n  * Serum Creatinine (Cr) ≤ 1.5 x Limit of Normal (ULN) or Creatinine Clearance ≥ 50mL/min\n  * Total Bilirubin (TBIL) ≤ 1.5 x ULN\n  * Aspartate Aminotransferase (AST) and Alanine Aminotransferase (ALT)≤ 2.5 x ULN(≤ 5 x ULN for patients with liver metastases)\n\nExclusion Criteria:\n\n* 1\\. Hypersensitivity: Known hypersensitivity to serplulimab or any of its excipients.\n\n  2\\. Prior Immunotherapy: Prior treatment with any anti-PD-1, anti-PD-L1, anti-CTLA-4, or other immune checkpoint inhibitors (ICIs).\n\n  3\\. Autoimmune Disease: Active autoimmune disease requiring systemic treatment (e.g., corticosteroids or immunosuppressants) within the past 2 years. Replacement therapy (e.g., thyroxine, insulin, or physiologic corticosteroid replacement for adrenal or pituitary insufficiency) is permitted.\n\n  4\\. Lung Disease/Pneumonitis: Active interstitial lung disease (ILD) or pneumonitis, or a history of (non-infectious) pneumonitis requiring steroid treatment.\n\n  5\\. Infections: Active infection requiring systemic therapy. 6. CNS Metastases: Known active central nervous system (CNS) metastases and/or carcinomatous meningitis. However, patients with treated (via surgery or radiotherapy) and stable brain metastases are eligible, provided they are radiographically stable for at least 4 weeks prior to the first dose, have no evidence of new or enlarged brain lesions, and have discontinued glucocorticoids for at least 14 days.\n\n  7\\. Pregnancy and Breastfeeding: Pregnant or breastfeeding women. 8. Investigator Discretion: Any other condition that, in the investigator's opinion, may interfere with the evaluation of the study drug, jeopardize subject safety, or confound the interpretation of study results.",
+      "min_age": "65 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Tang-Du Hospital"
+    },
+    {
+      "nct_id": "NCT06241807",
+      "title": "Neoadjuvant Camrelizumab Combined With Chemotherapy for Resectable Stage IIIA-IIIB NSCLC",
+      "conditions": [
+        "IMMUNOTHERAPY",
+        "Neoadjuvant Therapy",
+        "Resectable Lung Non-Small Cell Carcinoma",
+        "Biomarkers / Blood"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18-75\n* Pathologically confirmed resectable stage IIIA-IIIB (T3-4N2) NSCLC\n* Absence of EGFR, ALK, and ROS1 gene mutations\n* Eastern Cooperative Oncology Group (ECOG) status 0-1\n* Signed written informed consent prior to the implementation of any trial-related rocedures\n* Adequate organ function, evidenced by laboratory results with no contraindications to chemotherapy: Absolute neutrophil count ≥ 1,500 х109/L, Thrombocytes ≥ 100 х 109/L, Hemoglobin ≥ 90 mg/L, Creatinine ≤ 1.5 x ULN or creatinine clearance (calculated using the Cockcroft-Gault formula) ≥ 40 mL/min, Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) \\&gt; 2.5 x upper limit of normal (ULN), Alkaline phosphatase (ALP) \\&gt; 5 x ULN, Bilirubin \\&gt; 1.5 х ULN\n\nExclusion Criteria:\n\n* Patients diagnosed with any other malignant tumor\n* Have received prior therapy with chemotherapy or immune checkpoint inhibitor\n* Insufficient caloric and/or fluid intake despite consultation with a dietitian and/or tube feeding\n* Have an active infection requiring systemic therapy that has not resolved 3 days (simple infection, such as cystitis) to 7 days (severe infection, such as pyelonephritis) before the first dose of trial treatment\n* Patients who cannot tolerate chemoradiotherapy or surgery due to severe cardiac, lung dysfunction\n* A history of interstitial lung disease or non-infectious pneumonia\n* Active autoimmune disease with systemic therapy (ie, use of disease modifiers, corticosteroids, or immunosuppressive drugs) in the past 2 years\n* Known history of human immunodeficiency virus (HIV) infection (i.e., positive for HIV 1/2 antibody) and various viral hepatitis infections\n* Patients who have received allogeneic stem cell or solid organ transplantation\n* Women during pregnancy or lactation",
+      "min_age": "18 Years",
+      "max_age": "75 Years",
+      "sex": "ALL",
+      "lead_sponsor": "Shandong Cancer Hospital and Institute"
+    },
+    {
+      "nct_id": "NCT05344209",
+      "title": "Efficacy and Safety of Anti-PD-1/PD-L1 Treatment +/- UV1 Vaccination in Patients With Non-small Cell Lung Cancer",
+      "conditions": [
+        "Oncology",
+        "NSCLC Stage IV",
+        "NSCLC, Stage III"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed NSCLC stage IIIB/IIIC or IV not amenable for curative treatment, with PD-L1 ≥ 50% measured by a validated method, and eligible for pembrolizumab monotherapy in the first-line setting\n* At least one lesion, not previously irradiated and not chosen for biopsy during the study screening period, that can be accurately measured at baseline according to RECIST 1.1\n* Subjects who received previous neo-adjuvant or adjuvant systemic therapy (other than immunotherapies) will be eligible if neo-adjuvant or adjuvant therapy was completed at least 12 months prior to the development of metastatic disease. Last dose of neoadjuvant or adjuvant therapy must be more than 12 months prior to enrollment/randomization\n* Available unstained archived tumour tissue sample in sufficient quantity to allow for analyses. At least fifteen unstained slides or a tumour block (preferred)\n* Male and female age ≥ 18 years at time of signing the ICF\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0-2\n* Adequate organ function as defined below\n* Haemoglobin ≥9.0 g/dL\n* Absolute neutrophil count (ANC) 1.5 x (\\> 1500 per mm3)\n* Platelet count ≥100 x 109/L (\\>75,000 per mm3)\n* Serum bilirubin ≤1.5 x institutional upper limit of normal (ULN).\n* AST (SGOT)/ALT (SGPT) ≤2.5 x institutional upper limit of normal unless liver metastases are present, in which case it must be ≤5x ULN\n* Measured creatinine clearance (CL) \\>40 mL/min or Calculated creatinine CL \\>40 mL/min by the Cockcroft-Gault formula (Cockcroft and Gault 1976) or by 24-hour urine collection for determination of creatinine clearance:\n\nMales:\n\nCreatinine CL (mL/min) = Weight (kg) x (140 - Age) 72 x serum creatinine (mg/dL)\n\nFemales:\n\nCreatinine CL (mL/min)\n\n= Weight (kg) x (140 - Age) x 0.85 72 x serum creatinine (mg/dL)\n\n* Written informed consent obtained prior to any study specific procedure\n\nExclusion Criteria:\n\n* Previous treatment with a PD-1 or PD-L1 inhibitor, including pembrolizumab or any other agent targeting immune checkpoints\n* Previous malignancy (except non-melanoma skin cancer and the following in situ cancers: bladder, gastric, esophageal, colon, endometrial, cervical, melanoma or breast) unless a complete remission was achieved at least 2 years prior to study entry\n* Symptomatic or uncontrolled brain metastases requiring concurrent treatment, inclusive of but not limited to surgery, radiation and/or corticosteroids (prednisone \\>10 mg or equivalent). Surgery, radiation and/or corticosteroids (any dose \\>10 mg prednisone equivalent) must have been completed ≥ 2 weeks prior to registration\n* Known history of leptomeningeal carcinomatosis\n* Uncontrolled seizures.\n* Current or prior use of immunosuppressive medication within 28 days before the first dose of pembrolizumab, with the exceptions of intranasal and inhaled corticosteroids or systemic corticosteroids at physiological doses, which are not to exceed 10 mg/day of prednisone, or an equivalent corticosteroid. Steroid premedication given as prophylaxis for imaging contrast allergy should not be counted for this criterion\n* Active or prior documented autoimmune or inflammatory disorders (including inflammatory bowel disease, diverticulitis with the exception of diverticulosis, celiac disease, irritable bowel disease; Wegner syndrome) within the past 2 years. Subjects with vitiligo, alopecia, Grave's disease, or psoriasis not requiring systemic treatment (within the past 3 years) are not excluded\n* History of primary immunodeficiency\n* History of allogeneic organ transplant\n* Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, uncontrolled hypertension, unstable angina pectoris, cardiac arrhythmia, active peptic ulcer disease or gastritis, active bleeding diatheses including any subject known to have psychiatric illness/social situations that would limit compliance with study requirements or compromise the ability of the subject to give written informed consent\n* Active infection including tuberculosis (clinical evaluation including: physical examination findings, radiographic findings, positive PPD test, etc.), hepatitis B (known positive HBV surface antigen \\[HBsAg\\] result), hepatitis C, or human immunodeficiency virus (positive HIV 1/2 antibodies as defined by a positive ELISA test). Patients with a past or resolved HBV infection (defined as the presence of hepatitis B core antibody \\[anti-HBc\\] and absence of HBsAg) are eligible. Patients positive for hepatitis C (HCV) antibody are eligible only if polymerase chain reaction is negative for HCV RNA. HIV testing is not required in the absence of clinical suspicion\n* Pregnant or lactating women\n* Live attenuated vaccination within 30 days prior to study entry or within 30 days of receiving pembrolizumab\n* Any condition that, in the opinion of the investigator, would interfere with the evaluation of study treatment or interpretation of patient safety or study results\n* History of allergy or hypersensitivity to any of the active substances or excipients in the study drug\n* Involvement in the planning and/or conduct of the study (investigator staff and/or staff at the study site)\n* Judgment by the investigator that the subject should not participate in the study if the subject is unlikely to comply with study procedures, restrictions and requirements",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Vestre Viken Hospital Trust"
+    },
+    {
+      "nct_id": "NCT05624996",
+      "title": "Testing the Addition of High Dose, Targeted Radiation to the Usual Treatment for Locally-Advanced Inoperable Non-Small Cell Lung Cancer",
+      "conditions": [
+        "Locally Advanced Lung Non-Small Cell Carcinoma",
+        "Stage IIB Lung Cancer AJCC v8",
+        "Stage III Lung Cancer AJCC v8"
+      ],
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Pathologically (histologically or cytologically) proven diagnosis of non-operable stage IIB or III, node positive (American Joint Committee on Cancer \\[AJCC\\] eighth edition) non-small cell lung cancer (NSCLC) with known PD-L1 status prior to registration\n\n  * Patients must have an identified primary tumor and at least one nodal metastasis (peribronchial/hilar/intrapulmonary, mediastinal/subcarinal, supraclavicular/scalene)\n  * Up to 4 cycles of systemic therapy received prior to registration for the current study cancer is allowable; any prior chemotherapy for a different cancer is also permissible\n  * Patients who refuse surgery, in addition to those who are technically unresectable or medically inoperable, are eligible.\n  * Patients with separate tumor nodules in the same lobe of the primary tumor are eligible\n* The patient must be deemed clinically appropriate for curative intent definitive combined modality therapy, based on the following staging assessments:\n\n  * History/physical examination prior to registration;\n  * Magnetic resonance imaging (MRI) scan of the brain (preferred) or CT scan of the brain (if available, contrast is preferred for all neuroimaging) prior to registration;\n  * CT chest with IV contrast (if contrast is available and unless contraindicated, such as for abnormal kidney function) prior to registration. PET/CT may be used if the CT portion is of identical diagnostic quality as achieved in a stand-alone CT\n* No evidence of distant metastases based on FDG PET/CT scan obtained within 60 days of registration\n* Primary tumor =\\< 7 cm\n* Age \\>= 18\n* Eastern Cooperative Oncology Group (ECOG) performance status 0-2\n* Hematologic function (e.g. platelets, leukocytes, hemoglobin) amenable, at the discretion of the treating physician, to allow for treatment with chemotherapy and concurrent radiation therapy\n* Creatinine clearance \\>= 25 mL/min by the Cockcroft-Gault (C-G) equation\n* Subjects with non-malignant pleural effusion are eligible provided the effusion is not known or demonstrated to be an exudative effusion\n\n  * If a pleural effusion is present, the following criteria must be met to exclude malignant involvement:\n\n    * When pleural fluid is visible on both the CT scan and on a chest x-ray, a pleuracentesis is required to confirm that the pleural fluid is cytologically negative;\n    * Effusions that are minimal (i.e., not visible on chest x-ray) that are too small to safely tap are eligible\n* Medical history consistent with the patient being amenable, at the discretion of the treating physician, to allow for treating with consolidation immunotherapy. Patients with known EGFR/ALK/other driver mutation at the time of registration are eligible, and these patients can be treated with consolidation systemic therapy at the discretion of the treating physician\n* Patients with a prior or concurrent malignancy whose natural history or treatment does not have the potential to interfere with the safety or efficacy assessment of the investigational regimen\n* Negative pregnancy test =\\< 14 days prior to registration for participants of childbearing potential\n* The patient or a legally authorized representative must provide study-specific informed consent prior to study entry and, for patients treated in the United States (U.S.), authorization permitting release of personal health information\n\nExclusion Criteria:\n\n* Prior radiotherapy to the study cancer (local recurrence). Prior radiotherapy for a different cancer/condition to the region of the study cancer that would result in overlap of radiation therapy fields that is determined by the treating physician to impede the treatment of the study malignancy\n* Patients without identifiable primary tumor and at least 1 pathologically enlarged lymph node are not eligible (T3-4N0 or T0N1-3 patients are not eligible). At least 1 radiographically-involved lymph node is required, but pathologic confirmation of involvement is not mandated\n* Centrally located primary tumor \\< 2 cm from involved nodal disease that would result in significant overlap of the primary SBRT and nodal radiation fields. This does not include proximity to involved segmental and subsegmental lymph nodes (levels 13 and 14) that would not result in overlap of dose to the proximal bronchial tree or esophagus. Centrally located is defined as within or touching the zone of the proximal bronchial tree, which is a volume 2 cm in all directions around the proximal bronchial tree (carina, right and left main bronchi, right and left upper lobe bronchi, intermedius bronchus, right middle lobe bronchus, lingular bronchus right and left lower lobe bronchi)\n* Participants who are pregnant or unwilling to discontinue nursing\n* Participants of childbearing potential (participants who may become pregnant or who may impregnate a partner) unwilling to use highly effective contraceptives during therapy and for the Food and Drug Administration (FDA)-labeled contraception timeframe required after the final dose of the selected systemic therapy regimen, because the treatment in this study may be significantly teratogenic",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "NRG Oncology"
+    }
+  ]
+}
