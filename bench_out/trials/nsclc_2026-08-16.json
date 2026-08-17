@@ -1,5 +1,5 @@
 {
-  "pulled": "2026-08-16T21:58:19.548934+00:00",
+  "pulled": "2026-08-16T22:14:36.597325+00:00",
   "api": "https://clinicaltrials.gov/api/v2/studies",
   "query": {
     "query.cond": "non-small cell lung cancer",

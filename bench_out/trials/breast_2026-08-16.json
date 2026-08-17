@@ -1,0 +1,451 @@
+{
+  "pulled": "2026-08-16T22:14:37.015043+00:00",
+  "api": "https://clinicaltrials.gov/api/v2/studies",
+  "query": {
+    "query.cond": "breast cancer"
+  },
+  "trials": [
+    {
+      "nct_id": "NCT06780748",
+      "title": "Photo-medicine-Guided Dual Approach for Reoperation of Sentinel Lymph Nodes in Locally Recurrent Breast Cancer Patients",
+      "conditions": [
+        "Breast Cancer",
+        "Locally Recurrent Breast Cancer",
+        "Sentinel Lymph Node Biopsy (SLNB)",
+        "Reoperation",
+        "ICG (indocyanine Green)"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with ipsilateral locally recurrent breast cancer who previously underwent ipsilateral axillary surgery.\n* Female patients aged 18 years or older.\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n* Patients who voluntarily decide to participate in the study and provide written informed consent.\n\nExclusion Criteria:\n\n* Patients with distant metastases.\n* Patients who previously underwent ipsilateral mastectomy.\n* Pregnant or breastfeeding women.\n* Patients with a general condition that impairs the ability to understand or provide informed consent.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "FEMALE",
+      "lead_sponsor": "National Cancer Center, Korea"
+    },
+    {
+      "nct_id": "NCT06111417",
+      "title": "Use of an Ultra-rapid BRCA1/2 Status Screening Test in Diagnostic and Theranostic Indication: Performance and Interest for Patients and Practitioners",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "phases": [],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Indication for oncogenetic consultation with a wide panel test including BRCA1/2 (gold standard) as part of the standard theranostic and diagnostic management of breast cancer.\n* The patient agrees to take part in the study, to follow all the study procedures and to complete the questionnaires sent during the consultation or by email.\n* Diagnosis of the disease ≤ 6 months\n* The patient must be affiliated to the social security system.\n\nExclusion Criteria:\n\n* Concomitant disorder or condition likely to compromise understanding of study information or completion of questionnaires\n* Patients who do not have an email address and/or do not have internet access or tools to connect to the internet\n* Women who are pregnant, may become pregnant or are breast-feeding\n* Persons deprived of their liberty or under guardianship (including curatorship)\n* Inability to undergo trial monitoring for geographical, social or psychological reasons.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Centre Georges Francois Leclerc"
+    },
+    {
+      "nct_id": "NCT05134779",
+      "title": "De-convoluting Interactions Between Genes, the Cancer Environment, and the Immune System to Develop Therapies That Work for You",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "phases": [],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* All patients will historically proven BC are eligible to be on the study\n\nExclusion Criteria:\n\n* Carriers of other cancers other than breast.",
+      "min_age": "18 Years",
+      "max_age": "90 Years",
+      "sex": "FEMALE",
+      "lead_sponsor": "Weill Medical College of Cornell University"
+    },
+    {
+      "nct_id": "NCT07007169",
+      "title": "Mediterranean Diet and Inequality in Early Breast Cancer",
+      "conditions": [
+        "Early Breast Cancer"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Signed written informed consent approved by the Ethical Review Board.\n2. Age ≥ 18\n3. Histologically confirmed unilateral adenocarcinoma of the breast, stage I-III, candidates for neoadjuvant chemotherapy followed by curative surgery, or adjuvant chemotherapy after curative surgery, according to the Danish Breast Cancer Group guidelines 48. The addition of trastuzumab and pertuzumab in HER2-positive tumors, or pembrolizumab in triple-negative tumors, per Danish Breast Cancer Group guidelines 48, is allowed as an adjunct to chemotherapy.\n4. Good performance status (WHO performance status 0 or 1).\n5. Willingness by the patient to undergo treatment and study-related procedures according to the protocol.\n6. Have a smartphone or computer to which it is possible to receive emails (for food diary; www.myfood24.org)\n7. Must be willing to restrict from probiotic (living microorganisms) supplements during the study. Fermented foods are allowed.\n\n   \\-\n\nExclusion Criteria:\n\n1. Clinical or radiological signs of metastatic disease.\n2. History of other malignancy within the last 5 years, except for carcinoma in situ of the cervix or non-melanoma skin cancer.\n3. Previous chemotherapy for cancer or other malignant disease.\n4. Major altered digestive system disorders (e.g. gastric by-pass or Crohn's disease or ulcerative colitis)\n5. Unable to communicate effectively in Danish or English.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Esbjerg Hospital - University Hospital of Southern Denmark"
+    },
+    {
+      "nct_id": "NCT07368998",
+      "title": "To Study the Effect of Inavolisib in Combination With Fulvestrant in Participants With Breast Cancer",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Documented ER +/ HER2- tumor according to American Society of Clinical Oncology/College of American Pathologists (ASCO/CAP) guidelines\n* Disease progression after or during treatment with a combination of CDK4/6i and endocrine therapy: \\<= 1 prior lines of systemic therapy in the locally advanced (recurrent or progressed) or metastatic setting\n* Measurable or evaluable disease per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v1.1)\n* Participants for whom endocrine-based therapy is recommended and treatment with cytotoxic chemotherapy is not indicated at time of entry into the study, as per national or local treatment guidelines\n* Confirmation of biomarker eligibility: presence of \\>= 1 study-eligible PIK3CA mutation\n* Life expectancy of \\> 6 months\n* Ability, in the investigator's judgment, and willingness to comply with all study -related procedures, including completion of patient-reported outcomes\n\nExclusion Criteria:\n\n* Metaplastic breast cancer\n* Prior treatment with chemotherapy in the recurrent locally advanced/metastatic setting\n* Type 2 diabetes requiring ongoing systemic treatment at the time of study entry; or any history of Type 1 diabetes\n* Prior treatment with PI3K/Akt/mTOR inhibitors in the recurrent locally advanced/metastatic setting\n* Requirement for daily supplemental oxygen\n* Symptomatic active lung disease, including pneumonitis",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Hoffmann-La Roche"
+    },
+    {
+      "nct_id": "NCT07225114",
+      "title": "Translation of Acoustic Angiography: Contrast Enhanced Super Resolution (CESR) Imaging",
+      "conditions": [
+        "Breast Cancer",
+        "Kidney Neoplasms",
+        "Liver Neoplasms"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Adults ≥18 years old\n* Patient had a diagnostic ultrasound study performed at University of North Carolina\n* Scheduled for a biopsy\n* Lesion visualized on ultrasound\n* Able to provide informed consent\n* Negative urine pregnancy test in women of child-bearing potential\n\nExclusion Criteria:\n\n* Institutionalized subject (prisoner or nursing home patient)\n* Critically ill or medically unstable and whose critical course during the observation period would be unpredictable (e.g., chronic obstructive pulmonary disease (COPD)\n* Known hypersensitivity to sulfur hexafluoride or to any component of perflutren lipid (Definity®)\n* Active cardiac disease including any of the following\n* Severe congestive heart failure (class IV in accordance with the classification of the New York Heart Association)\n* Unstable angina.\n* Severe arrhythmia (i.e., ventricular tachycardia, flutter fibrillation; ventricular premature complexes occurring close to the preceding T-wave, multifocal complexes).\n* Myocardial infarction within 14 days prior to the date of proposed Definity® administration.\n* Pulmonary hypertension\n* Cardiac shunts",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "UNC Lineberger Comprehensive Cancer Center"
+    },
+    {
+      "nct_id": "NCT06414733",
+      "title": "HER-2 B Cell Peptide Vaccine",
+      "conditions": [
+        "Metastatic Breast Cancer",
+        "Metastatic Gastrointestinal Carcinoma",
+        "HER2-positive Breast Cancer",
+        "HER2-positive Gastric Cancer",
+        "EGFR Overexpression"
+      ],
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\nInclusion Criteria for Extension and Expansion Cohorts\n\n1. For the extension cohort to be conducted at the IUSCCC (N=12), patients with histologically documented metastatic or unresectable breast or gastrointestinal cancer will be enrolled.\n2. For the expansion cohort (N=30), patients with either histologically documented metastatic or unresectable breast cancer (N=15), or histologically documented metastatic or unresectable gastrointestinal cancer (N=15) be enrolled. All patients enrolled to this cohort are required to have measurable disease. Note: Measurable disease is defined as ≥ 1 lesions that can be accurately measured in ≥ 1 dimensions as ≥ 20 mm with conventional techniques or as ≥ 10 mm with spiral CT scan.\n\n   Inclusion Criteria for all Cohorts:\n3. Patients must have received or refused first line standard systemic therapy for their metastases (if applicable) and patients with histologically confirmed pancreatic and esophageal cancers must have received no more than two prior cytotoxic chemotherapy regimens in the last two years after standard therapy. Patients with histologically confirmed breast, and gastrointestinal cancers must have received no more than three prior cytotoxic chemotherapy regimens in the last two years after standard therapy.\n4. Progressive disease after at least one line of standard therapy.\n5. Patients with pancreatic and esophageal cancers must have received no more than two prior cytotoxic chemotherapy regimens in the last two years. Patients with breast and gastrointestinal cancers must have received no more than three prior cytotoxic chemotherapy regimens in the last two years.\n6. Patients are required to have HER-2 (IHC 1+, 2+ and 3+) or EGFR over-expression (FISH and IHC) to be enrolled on this study.\n\n   1. If the patient has had HER-2 expression measured prior to enrollment, the report alone will be accepted on the expansion phase of the study.\n   2. If the patient has had EGFR expression measured prior to enrollment, the report alone will be accepted on the dose escalation phase of the study.\n   3. If the patient has not had HER-2 or EGFR expression measured prior to enrollment on this study, it would be obligatory for the patient to have the tests performed to justify their status. HER-2 status can be performed by a variety of tests. Either IHC or FISH assay are acceptable if breast tumor tissues (previously frozen) are available. The test can be done at IUSCCC or elsewhere if the patient is from out of town.\n7. Patients with prior history of treated brain metastases who are off steroids and have stable metastatic brain disease for at least 3 months are eligible.\n8. Patients must be ambulatory with an ECOG performance status 0, 1, or 2 (appendix II).\n9. Patients must have adequate organ function as defined by:\n\n   1. ANC ≥ 1,000/mm³, platelet count \\> 700,000/mm³.\n   2. Serum bilirubin \\< 1.5 mg%, regardless of whether patients have liver involvement secondary to tumor. ALT must be \\< 2 times upper limit of normal.\n   3. Creatinine \\<1.5 mg/dl or calculated creatinine clearance \\> 60 ml/min\n10. Patients must be at least 3 weeks past any prior surgery, cytotoxic, chemotherapy, other immunotherapy, hormonal therapy, or radiation therapy. Patients having been treated with monoclonal antibodies may enter the trial after a specified period of time (2 times the mean half life of the agent). Patients must have recovered from any toxicity of prior therapy prior to enrolling on study except for neuropathy where patients need to recover to less than grade 2.\n\n    1. Patients with hormone receptor positive breast cancer who are on stable endocrine therapy are eligible if their tumor has some expression of HER-2 based on IHC of 1+ or 2+.\n11. Patients must be at least 18 years of age.\n12. Women of child-bearing potential must not be pregnant and must have a negative pregnancy test (Women of childbearing potential definition: (ECOG definition)).\n13. Men and women must agree to practice effective contraception while on this study.\n14. Patients must obtain a base line Echocardiogram or MUGA and require the left ventricular ejection fraction to be within normal limits (or 50% or higher).\n15. Ability to understand and the willingness to sign a written informed consent document.\n\nThe patient must be aware that his/her disease is neoplastic in nature and willingly consent after being informed of the procedure to be followed, the experimental nature of the therapy, alternatives, potential benefits, side-effects, risks, and discomforts.\n\nExclusion Criteria:\n\n1. Patients with tumors that are negative for HER-2 expression based on IHC of 0 AND Fluorescence in-situ hybridization showing lack of HER-2 amplification based on most recent ASCO/CAP guidelines; or are under-expressing EGFR based on FISH and IHC.\n2. Patients on targeted therapies, such as Cycline Dependent Kinase (CDK) 4/6 or mammalian target of rapamycin (mTOR) inhibitors in combination with endocrine therapy\n3. Patients who are {MVF-HER-2(266-296) and MVF-HER-2 (597-626)} immediate hypersensitivity skin test positive.\n4. Patients who have evidence of active infection that requires antibiotic therapy. Patients must have been off antibiotic treatment for at least 3 weeks prior to initiating treatment and must be confirmed to be clear of the infection.\n5. Patients with known active HIV, hepatitis A, hepatitis B, or hepatitis C infection.\n6. Patients with serious uncontrolled cardiopulmonary disorders, including congestive heart failure, symptomatic coronary artery disease, serious cardiac arrhythmia, and symptomatic chronic obstructive pulmonary disease or patients with other serious uncontrolled medical diseases. At the discretion of the treating physician, patients who show disease control for at least 6 months may be enrolled.\n7. Patients who require or likely to require corticosteroids or other immunosuppressives for intercurrent disease are NOT eligible.\n8. Splenectomized patients.\n9. Patients with active autoimmune diseases including rheumatoid arthritis, systemic lupus erythematosus, scleroderma, polymyositis dermato-myositis, or a vasculitic syndrome.\n\n   Note: At the discretion of the treating physician, patients who show disease control for at least 6 months may be enrolled.\n10. Patients who have developed anaphylactic responses to other vaccines",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Pravin T.P Kaumaya"
+    },
+    {
+      "nct_id": "NCT05491226",
+      "title": "Reinvigorating TNBC Response to Immunotherapy With Combination Myeloid Inhibition and Radiation",
+      "conditions": [
+        "TNBC - Triple-Negative Breast Cancer",
+        "Breast Cancer"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Female patients diagnosed with high-risk triple negative breast cancer (TNBC) with intent for neoadjuvant therapy.\n* Low tumor-infiltrating lymphocyte (TIL) score, defined as stromal TIL (sTIL) ≤40%; or node-positive; or combined positive score (CPS) \\< 10 or PD-L1 tumor positivity \\<1%.\n* Written informed consent obtained from subject and ability for subject to comply with the requirements of the study, including consent for research blood draws and use of available archived tissue.\n* Age ≥ 18 years of age on day of signing informed consent.\n* Histologically or cytologically-confirmed TNBC (defined as ER \\<1%, PR\\<1%, her-2-neu 0-1+ by IHC or FISH-negative).\n* If an archived tumor tissue is unavailable, be willing to provide tissue from a newly obtained core or excisional biopsy of a tumor lesion. Newly-obtained is defined as a specimen obtained up to 6 weeks (42 days) prior to initiation of treatment on Day 1 of RT.\n* Have a performance status of 0 or 1 on the ECOG Performance Scale.\n* Demonstrate adequate organ function.\n* Female subject of childbearing potential should have a negative serum or urine pregnancy test or documentation of absence of pregnancy by a gynecologist within 14 days of initiating first dose of pembrolizumab (1 week lead-in) for eligibility verification.\n* Female subjects of childbearing potential should be willing to comply to the contraceptive guidance in Appendix 12.2 during the treatment period through 120 days after the last dose of study medication. Subjects of childbearing potential are those who have not been surgically sterilized or have not been free from menses for \\> 1 year.\n\nExclusion Criteria:\n\n* Evidence of metastatic disease.\n* Has received prior radiotherapy within 2 weeks of start of study intervention.\n* Is currently participating and receiving study therapy or has participated in a study of an investigational agent and received study therapy or used an investigational device within 4 weeks of the first dose of treatment.\n* Has a diagnosis of immunodeficiency or is receiving systemic steroid therapy or any other form of immunosuppressive therapy within 7 days prior to the first dose of trial treatment.\n* Has a known history of active TB (Bacillus Tuberculosis).\n* Hypersensitivity to pembrolizumab or any of its excipients.\n* Has had a prior anti-cancer monoclonal antibody (mAb) within 4 weeks prior to study Day 1 or who has not recovered (i.e., \\> Grade 1 or at baseline) from adverse events due to agents administered more than 4 weeks earlier.\n* Has had prior chemotherapy or targeted small molecule therapy within 2 weeks prior to study Day 1 or who has not recovered (i.e., \\> Grade 1 or at baseline) from adverse events due to a previously administered agent. Note: Subjects with ≤ Grade 2 neuropathy are an exception to this criterion and may qualify for the study.\n* Has a known additional malignancy that progressed or required treatment in the last 5 years. Exceptions include basal cell carcinoma of the skin or squamous cell carcinoma of the skin that has undergone potentially curative therapy or in situ cervical cancer.\n* Has known active central nervous system (CNS) metastases and/or carcinomatous meningitis. Subjects with previously treated brain parenchymal metastases may participate provided they are stable (without evidence of progression by imaging for at least four weeks prior to the first dose of trial treatment and any neurologic symptoms have returned to baseline), have no evidence of new or enlarging brain metastases, and are not using steroids for at least 7 days prior to trial treatment. This exception does not include carcinomatous meningitis, which is excluded regardless of clinical stability.\n* Has active autoimmune disease that has required systemic treatment in the past 2 years (i.e. with use of disease modifying agents, corticosteroids or immunosuppressive drugs). Replacement therapy (e.g., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic treatment.\n* Has known history of/active, non-infectious pneumonitis requiring treatment with steroids or has history of/active interstitial lung disease.\n* Has an active infection requiring systemic therapy.\n* Has a history or current evidence of any condition, therapy, or laboratory abnormality that might confound the results of the trial, interfere with the subject's participation for the full duration of the trial, or is not in the best interest of the subject to participate, in the opinion of the treating investigator.\n* Has known psychiatric or substance abuse disorders that would interfere with cooperation with the requirements of the trial.\n* Is pregnant or breastfeeding, or expecting to conceive within the projected duration of the trial, starting with the pre-screening or screening visit through 120 days after the last dose of trial treatment. A WOCBP who has a positive urine pregnancy test within 2 weeks prior to start of study treatment (first dose of pembrolizumab). If the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required. Note: Negative urine or serum pregnancy test is also conducted within 72 hours prior to C1D1 for study procedures but if screening pregnancy test is done within 72 hours of C1D1, it is not required to be repeated..\n* Has a known history of Human Immunodeficiency Virus (HIV) (HIV 1/2 antibodies).\n* Has a known history of active Hepatitis B (e.g., HBsAg reactive) or known active Hepatitis C (e.g., HCV RNA \\[qualitative\\] is detected).\n* Has received a live vaccine or live-attenuated vaccine within 30 days of planned start of pembrolizumab. Administration of killed vaccines is allowed.\n* Has had an allogenic tissue/solid organ transplant.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "FEMALE",
+      "lead_sponsor": "Stephen Shiao"
+    },
+    {
+      "nct_id": "NCT07601178",
+      "title": "QUEEN-APPLE: A Single-Arm, Multicenter, Prospective Phase II Clinical Study of Iparomlimab and Tuvonralimab (QL1706) in Combination With Anlotinib Hydrochloride and Nab-Paclitaxel as First-Line Treatment for Advanced Triple-Negative Breast Cancer",
+      "conditions": [
+        "TNBC, Triple Negative Breast Cancer"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Participants voluntarily join the study, sign the informed consent form, and agree to strictly comply with the study protocol requirements.\n2. Female patients aged between 18 and 75 years.\n3. Confirmed by histopathological examination as advanced triple-negative invasive breast cancer, meeting the following criteria: pathological type triple-negative, specifically: ER negative (IHC \\<1%), PR negative (IHC \\<1%), HER2 negative (IHC -/+ or IHC ++ but FISH/CISH negative). Priority is given to pathology from metastatic lesions; if metastatic lesion pathology is not available, primary lesion pathology may be used.\n4. TNBC patients with initial diagnosis of stage IV (according to AJCC 8th edition) or recurrent/metastatic disease who are not suitable for surgery, and have not received prior systemic therapy for advanced disease. Prior neoadjuvant and/or adjuvant therapy with taxanes or other anti-tumor treatments is permitted, provided that there was no disease progression during neoadjuvant therapy, and the interval between completion of taxane-based (neo)adjuvant therapy and recurrence/metastasis is ≥6 months.\n5. Suitable for nab-paclitaxel treatment.\n6. At least one measurable tumor lesion according to RECIST 1.1 criteria.\n7. Expected survival ≥3 months.\n8. ECOG performance status 0 or 1.\n9. Adequate organ function, including:\n\n1)Hematology: Absolute neutrophil count (ANC) ≥1.5×10⁹/L; platelet count (PLT) ≥100×10⁹/L; hemoglobin (HB) ≥90 g/L.\n\n2)Liver function: Total bilirubin ≤1.5×ULN; AST and ALT ≤2.5×ULN; if liver metastases are present, ALT and AST must be ≤5×ULN.\n\n3)Renal function: Serum creatinine (Cr) ≤1.5×ULN, or creatinine clearance ≥60 mL/min (calculated by the Cockcroft-Gault formula).\n\n10.Participants of childbearing potential must use appropriate contraception during the study and for 120 days after study completion, have a negative serum pregnancy test within 7 days before study enrollment, and must not be lactating.\n\nExclusion Criteria:\n\n1. Known history of severe allergic reactions to QL1706, anlotinib, nab-paclitaxel, or any of their excipients.\n2. Inability to swallow oral medications, or any gastrointestinal disorder that may interfere with the absorption and metabolism of the study drugs.\n3. Symptomatic brain/leptomeningeal metastases and/or spinal cord metastases.\n4. Active or potentially relapsing autoimmune disease, with the following exceptions: vitiligo, alopecia, psoriasis, or eczema not requiring systemic treatment; hypothyroidism due to autoimmune thyroiditis requiring only stable-dose hormone replacement therapy; type I diabetes mellitus requiring only stable-dose insulin replacement therapy.\n5. Major surgery within 3 weeks before study initiation, or failure to recover from surgery.\n6. History of organ transplantation or autologous/allogeneic stem cell transplantation.\n7. Known or self-reported human immunodeficiency virus (HIV) infection.\n8. HBV-DNA positive or HCV-DNA positive (copy number \\>10³).\n9. Prior treatment with any agent targeting the mechanism of tumor immunotherapy, including immune checkpoint inhibitors (e.g., anti-PD-1 antibodies, anti-PD-L1 antibodies, anti-CTLA-4 antibodies), immune checkpoint agonists (e.g., antibodies targeting ICOS, CD40, CD137, GITR, OX40), or immune cell therapy.\n10. Prior treatment with anti-angiogenic targeted therapy.\n11. Hypertension that cannot be well controlled with a single antihypertensive medication (systolic blood pressure ≥150 mmHg or diastolic blood pressure ≥90 mmHg).\n12. Arterial/venous thrombotic events (e.g., cerebrovascular accident including transient ischemic attack, deep vein thrombosis, pulmonary embolism) within 6 months before enrollment.\n13. Presence of other malignancies within 5 years before enrollment, except for TNBC.\n14. Tumor invasion or compression of surrounding major blood vessels or organs.\n15. Active central nervous system (CNS) metastatic lesions.\n16. Clinically significant pleural effusion, pericardial effusion, or ascites requiring repeated drainage.\n17. History of myocarditis, cardiomyopathy, or malignant arrhythmias.\n18. History of significant bleeding tendency or coagulation dysfunction.\n19. History of esophageal-gastric varices, severe ulcer, non-healing wound, gastrointestinal perforation, abdominal fistula, gastrointestinal obstruction, intra-abdominal abscess, or acute gastrointestinal bleeding within 6 months before the first dose.\n20. Known active tuberculosis (TB).\n21. History of or current non-infectious pneumonitis/interstitial lung disease requiring systemic corticosteroid therapy.\n22. Major surgery or severe trauma within 30 days before the first dose, or planned major surgery within 30 days after the first dose; minor local surgery within 3 days before the first dose.\n23. Platelet or red blood cell transfusion within 4 weeks before initiation of study drug treatment.\n24. Receipt of live vaccine within 4 weeks before the first dose, or planned receipt of live vaccine during the study.\n25. Female participants who are pregnant, breastfeeding, or planning to become pregnant during the study.\n26. Patients judged by the investigator to be unsuitable for participation in this study.",
+      "min_age": "18 Years",
+      "max_age": "75 Years",
+      "sex": "ALL",
+      "lead_sponsor": "Jiangsu Cancer Institute & Hospital"
+    },
+    {
+      "nct_id": "NCT07528638",
+      "title": "Intraoperative Neuromonitoring (IONM) and Bipolar Electrocautery (BE) During Axillary Lymph Node Dissection (ALND)",
+      "conditions": [
+        "Breast Cancer",
+        "Surgery"
+      ],
+      "phases": [
+        "NA"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients ages 18-70 years old.\n2. Pathologically confirmed diagnosis of breast cancer.\n3. Undergoing ALND by one of the breast surgeon Sub-Investigators on this study.\n\nExclusion Criteria:\n\n1. Patients having any previous axillary surgery other than percutaneous breast biopsy and/or SLNB.\n2. Prior breast radiation with neuropathy clearly developing after radiation.\n3. Patients who have undergone prior chemotherapy and developed post-chemotherapy neuropathy prior to ALND.\n4. Patients with any pre-existing neurological conditions affecting nerves, such as neuropathy (peripheral neuropathy, neuropathic pain or nerve injury to upper extremity).\n5. Patients taking medications that are known to modify neuropathic pain (eg, gabapentin, pregabalin, duloxetine, venlafaxine, lidocaine patches, capsaicin, opioids, tramadol, NMDA receptor antagonists, clonidine, cannabis, botox).\n6. Patients with prior spinal surgery or spinal pathology (cervical spinal stenosis or cervical radiculopathy).\n7. Patients with limb-dysfunction.\n8. Patients with demyelinating disease.\n9. Patients with significant co-morbidities (clotting disorders on anticoagulation, cardiac issues, other conditions that could impact long-term follow-up).\n10. Patients that present with pre-operative breast, arm or chest pain ipsilateral to anticipated ALND.\n11. Patients who have had prior procedures where IONM failed intraoperatively.\n12. Presence of parietal cortical lesion.",
+      "min_age": "18 Years",
+      "max_age": "70 Years",
+      "sex": "ALL",
+      "lead_sponsor": "University of Cincinnati"
+    },
+    {
+      "nct_id": "NCT05116449",
+      "title": "Comparison of Changes in the Quality of Life of Patients Operated on Breast Cancer at the Drôme Ardèche Breast Institute According to Access to Supportive Oncological Care (IDSein)",
+      "conditions": [
+        "Breast Cancer Female"
+      ],
+      "phases": [],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Woman with histologically confirmed invasive breast cancer for whom surgery is scheduled\n* Age\\> 18 years old\n* Performance status ECOG \\<2\n* Patient speaking and understanding French and able to complete questionnaires\n* Patient affiliated or beneficiary of a social security scheme\n* Patient having read the information note and not objecting to the use of the data collected\n\nExclusion Criteria:\n\n* male\n* Patient with metastatic breast cancer\n* Patient with bilateral breast cancer\n* History of cancer of less than 5 years\n* Active infection or other serious underlying condition that may prevent the patient from receiving treatment\n* History or progressive psychiatric illness\n* Person deprived of liberty or under guardianship\n* Inability to undergo medical monitoring for geographical, social or psychological reasons Indication of emergency amputation\n* Protected patient: adult under guardianship, curatorship or other legal protection, deprived of liberty by judicial or administrative decision\n* Pregnant, breastfeeding or parturient woman\n* Patient hospitalized without consent",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "FEMALE",
+      "lead_sponsor": "GCS Ramsay Santé pour l'Enseignement et la Recherche"
+    },
+    {
+      "nct_id": "NCT05576389",
+      "title": "Fluzoparib Combined With Camrelizumab for Neoadjuvant Treatment of Embryogenic BRCA Mutation HER2 Negative Breast Cancer: an Open, Single Arm, Multicenter Study",
+      "conditions": [
+        "Germline BRCA-mutated HER2-negative Breast Cancer"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* According to the definition of the latest ASCO/CAP guidelines, early or locally advanced HER2 negative invasive breast cancer confirmed by histopathology meets the following conditions:\n\n  * HER2 negative: IHC 0/1+or IHC2+with no amplification of ISH;\n  * Primary tumor size: ≥ 1cm\n  * Lymph node status: N0-3\n  * Inflammatory breast cancer patients with measurable lesions (according to RECIST 1.1 standard)\n* Patients with bilateral breast cancer whose primary lesions all meet the inclusion criteria, or breast cancer with Tis-1bN0 and HER2 negative on the other side only meeting the inclusion criteria on one side;\n* The hormone receptor status is known;\n* ECOG score 0-1;\n* Carrying BRCA1 or BRCA2 germline pathogenic mutations or suspected pathogenic mutations;\n* According to RECIST 1.1 standard, at least one measurable lesion is present;\n\nExclusion Criteria:\n\n* Tumor related symptoms and treatment\n\n  * Recurrent or metastatic breast cancer;\n  * Participated in other drug trials or received any anti-tumor therapy, including endocrine therapy, bisphosphate therapy, immunotherapy, biological therapy, or tumor embolization, within 4 weeks prior to enrollment;\n  * Previously received treatment for PD-1/PD-L1 antibodies, CTLA-4 antibodies, or other PD-1/PD-L1 inhibitors;\n  * Previously received PARP inhibitor treatment (excluding those who have completed PARP inhibitor treatment for ovarian cancer for at least 5 years without recurrence or metastasis);\n* Human immunodeficiency virus (HIV) infection or known acquired immunodeficiency syndrome (AIDS); active hepatitis or combined hepatitis B and C co-infection; autoimmune hepatitis;\n* Confirmed history of heart failure or systolic dysfunction (LVEF \\< 50%); high risk uncontrolled cardiac arrhythmias, such as atrial tachycardia; angina requiring antianginal medication\n* Female patients who are pregnant or lactating\n* History of definite neurological or psychiatric disorders, including epilepsy or dementia\n* Presence of interstitial lung disease, pneumonitis, or uncontrolled systemic disease (eg, diabetes mellitus, pulmonary fibrosis, acute pneumonitis, etc.)",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "FEMALE",
+      "lead_sponsor": "Peking University People's Hospital"
+    },
+    {
+      "nct_id": "NCT06717984",
+      "title": "AI Model for Classifying Breast Cancer From Histopathology Images",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "phases": [],
+      "status": "RECRUITING",
+      "eligibility_criteria": "* Inclusion criteria:\n\n  * Female patients of any age can be selected as subjects.\n  * Individuals willing to participate in breast cancer screening.\n  * Availability for biopsy examination.\n  * Women with no current or prior diagnosis of breast cancer.\n  * Availability of relevant medical records for confirmation and comparison purposes.\n* Exclusion criteria:\n\n  * Pregnant women are excluded due to potential impacts on screening results and the necessity for special considerations during pregnancy.\n  * Individuals with severe medical conditions or circumstances that may render histopathologic examination inappropriate or unsafe are excluded.\n  * Patients with conditions that could interfere with the accuracy of screening results are excluded.\n  * Follow-up screenings are not included in this study.",
+      "min_age": null,
+      "max_age": null,
+      "sex": "FEMALE",
+      "lead_sponsor": "Taufiq Hasan, PhD"
+    },
+    {
+      "nct_id": "NCT05063136",
+      "title": "Adjuvant Metronomic Capecitabine Plus Endocrine Therapy for HR+/HER2- Primary Breast Cancer",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Age: 18-70 years old\n2. Women with known menstrual status (at the beginning of randomization or adjuvant endocrine therapy). Postmenopausal status is defined as (1) The patient has undergone bilateral ovariectomy, or (2) Age ≥ 60 years, or age \\< 60 years, amenorrhea for 12 months or more (without chemotherapy, tamoxifen, toremifene or ovarian suppression), and follicle stimulating hormone (FSH) and plasma estradiol are within the normal range of local postmenopausal women.(3) If the patient is taking tamoxifen or toremifene and is younger than 60 years old, the FSH and plasma estradiol levels are within the postmenopausal range (Notes:For premenopausal women before the start of adjuvant chemotherapy, amenorrhea is not a reliable indicator of menopausal status. Ovarian function may be complete or restored despite anovulation/amenorrhea. For women with treatment-induced amenorrhea, continuous measurements of FSH and/or estradiol are required according to clinical guidelines to determine postmenopausal status.)\n3. Invasive breast cancer patients with HR (+) and HER2(-), which is confirmed by histopathology. (1) ER and/or PR positive (positive staining accounted for more than 1% of all tumor cells) (2) HER-2 negative (IHC 0, 1+, or IHC 2 + and no fish amplification)\n4. Patients received radical surgery and chemotherapy (neoadjuvant or adjuvant chemotherapy), and for patients who received neoadjuvant chemotherapy, at least one of the following conditions should be met: (1) Patients not achieving PCR after neoadjuvant chemotherapy; (2) Axillary lymph nodes metastasis (including micro-metastasis) were confirmed by cytology or histology before neoadjuvant chemotherapy.\n5. Patients who have received breast cancer treatment in the past should meet the following conditions at the same time: (1) No more than 1 year after radical mastectomy. (2) For the patients receiving adjuvant chemotherapy, the time from the last chemotherapy to the beginning of enrollment should be more than 21 days. (3) For patients receiving radiotherapy, it should be no less than 14 days from the date of last radiotherapy to the beginning of enrollment. (4) Endocrine therapy should not exceed 6 months before entering the study (calculated as 30 days per month);\n6. The following laboratory results should be met to determine that the patient has sufficient bone marrow and organ function: Absolute neutrophil count (ANC) ≥ 1.5 × 109/L; Platelet ≥ 100 × 109/L; hemoglobin ≥ 9.0 g / dl; Creatinine clearance rate ≥ 50ml/min; alanine aminotransferase (ALT)\\< 2.5 × Upper limit of normal range (ULN); aspartate aminotransferase (AST) \\< 2.5 × ULN.\n7. For patients receiving anthracycline chemotherapy, EF value of cardiac ultrasound was ≥ 55% within 14 days before randomization;\n8. If the patient is a woman of childbearing age, the serum pregnancy test was negative within 14 days before randomization.\n9. ECOG score was 0 or 1.\n10. Patient has signed informed consent voluntarily.\n\nExclusion Criteria:\n\n1. Double primary cancers in active stage (simultaneous double primary cancers and heterochronous double primary cancers with disease-free interval ≤ 5 years). Note: carcinoma in situ (intraepithelial carcinoma or lesion equivalent to mucosal carcinoma) cured by local treatment is not included in active double primary carcinoma.\n2. Bilateral breast cancer (simultaneous/metachronous) (Notes: patients with invasive breast cancer combined with contralateral DCIS, the patient was considered eligible for inclusion if the contralateral DCIS have been removed with radical surgery)\n3. Received oral 5-FU for more than 2 weeks before treatment (Notes: patient with a history of intravenous 5-FU was considered eligible for inclusion).\n4. Severe Diarrhea.\n5. Combined with the following serious complications: (1) Uncontrolled diabetes; (2) Uncontrolled hypertension; (3) Unstable angina and arrhythmias need treatment; (4) cirrhosis and liver failure (5) Interstitial pneumonia, pulmonary fibrosis and severe emphysema; (6) Active infection; (7) Other serious complications.\n6. Past medical history: (1) myocardial infarction within 6 months; (2) Interstitial pneumonia (For local interstitial pneumonia, it can be proved to improve after treatment. Not included in this definition). (3) History of fluorouracil allergy; (4) Pregnant and lactating women; (5) Other patients not suitable for inclusion.",
+      "min_age": "18 Years",
+      "max_age": "70 Years",
+      "sex": "FEMALE",
+      "lead_sponsor": "Henan Cancer Hospital"
+    },
+    {
+      "nct_id": "NCT05996107",
+      "title": "Study of Ribociclib Administered Concurrently With Postoperative Radiation Therapy in Patients With High-Risk, HR+/HER2- Breast Cancer",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* ER and/or PR-positive (≥ 1% positivity as determined by local pathology laboratory), HER2-negative breast cancer with \\> 3 lymph nodes involved on sentinel lymph node biopsy (SLNB) or axillary lymph node dissection (ALND) OR have between 1-3 lymph nodes involved AND have T3 disease OR have between 1-3 lymph nodes involved and grade 3 breast cancer.\n* Age ≥ 18\n* Patients must have undergone gross total excision of all locoregional disease with negative margins (i.e. no tumor on ink). At least 21 days must elapse between surgical treatment for breast cancer and initiation of study treatment.\n* Patients must have completed chemotherapy (either in neoadjuvant or adjuvant setting). If received adjuvant chemotherapy, chemotherapy must have completed at least 21 days prior to initiation of study treatment.\n* Participants must have recovered (grade ≤1) from the acute effects of chemotherapy and surgical side effects following definitive breast surgery except for neuropathy and alopecia\n* Adequate baseline hematologic, hepatic and renal function as indicated below:\n\n  * Patient has adequate bone marrow and organ function as defined by the following laboratory values (as assessed by central laboratory for eligibility):\n  * Absolute neutrophil count ≥ 1.5 × 109/L\n  * Platelets ≥ 100 × 109/L\n  * Hemoglobin ≥ 9.0 g/dL\n  * INR ≤1.5 (unless the patient is receiving anticoagulants and the INR is within the therapeutic range of intended use for that anticoagulant within 7 days prior to the first dose of study drug)\n  * Estimated glomerular filtration rate (eGFR) ≥ 30 mL/min/1.73m2 according to the Modification of Diet in Renal Disease (MDRD) formula\n  * Total bilirubin \\< ULN except for patients with Gilbert's syndrome who may only be included if the total bilirubin is ≤ 3.0 × ULN or direct bilirubin ≤ 1.5 × ULN.\n  * Aspartate transaminase (AST) \\< 2.5 × ULN, except for patients with liver metastasis, who are only included if the AST is \\< 5 × ULN\n  * Alanine transaminase (ALT) \\< 2.5 × ULN, except for patients with liver metastasis, who are only included if the ALT is \\< 5 × ULN\n  * Patient must have the following laboratory values within normal limits or corrected to within normal limits with supplements before the first dose of study medication:\n  * Potassium\n  * Magnesium\n  * Total Calcium (corrected for serum albumin)\n* QTcF interval at screening EKG ≤ 450ms (QT interval using Fridericia's correction).\n* Mean resting heart rate 50-90 bpm (determined from the EKG).\n* Ability to swallow study drug (Ribociclib).\n* ECOG Performance Status 0-1 (Karnofsky \\> 60%).\n* Availability of archival tumor tissue from surgical specimen.\n* Ability to understand and willingness to sign informed consent.\n* Women of childbearing potential must have confirmed negative pregnancy test (urine or serum) within 14 days of initiation of study treatment.\n\nExclusion Criteria:\n\n* Prior history of radiation therapy to the chest wall and/or regional nodes is not allowed (but prior radiation therapy to other sites is permissible).\n* Prior history of CDK4/6 inhibitor therapy.\n* Patients who are pregnant or breastfeeding.\n\n  • Because radiation is known to be teratogenic, women of childbearing potential must have a documented negative pregnancy test performed prior to the start of study therapy (as above) and agree to use adequate contraception (hormonal or double barrier method of birth control; vasectomized partner; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately.\n* Patient with distant metastases of breast cancer beyond regional lymph nodes and/or evidence of breast cancer recurrence prior to study enrollment.\n* Clinically significant, uncontrolled heart disease and/or cardiac repolarization abnormality, including any of the following:\n\n  * History of documented myocardial infarction (MI), angina pectoris, symptomatic pericarditis, or coronary artery bypass graft within 6 months prior to trial entry.\n  * Documented cardiomyopathy.\n  * Left Ventricular Ejection Fraction (LVEF) \\< 50% as determined by Multiple Gated acquisition (MUGA) scan or echocardiogram (ECHO) (testing not mandatory)\n  * Long QT syndrome or family history of idiopathic sudden death or congenital long QT syndrome, or any of the following:\n  * Risk factors for Torsades de Pointes (TdP) including uncorrected hypocalcemia, hypokalemia or hypomagnesemia, history of cardiac failure, or history of clinically significant/symptomatic bradycardia.\n  * Concomitant medication(s) with a known risk to prolong the QT interval and/or known to cause TdP that cannot be discontinued or replaced by safe alternative medication (e.g. within 5 half-lives or 7 days prior to starting trial treatment).\n  * Inability to determine the QTcF interval.\n  * Clinically significant cardiac arrhythmias (e.g. ventricular tachycardia), complete left bundle branch block, high-grade Atrioventricular (AV) block (e.g. bifascicular block, Mobitz type II and third degree AV block).\n  * Uncontrolled arterial hypertension with systolic blood pressure \\> 160 mmHg.\n* Patient has any other concurrent severe and/or uncontrolled medical condition that would, in the Investigator's judgment, cause unacceptable safety risks, contraindicate patient participation in the clinical trial or compromise compliance with the protocol (e.g. chronic pancreatitis, chronic active hepatitis, liver cirrhosis or any other significant liver disease, active untreated or uncontrolled fungal, bacterial or viral infections, active infection requiring systemic antibacterial therapy, etc.) or limit life expectancy to ≤5 years. Questions regarding inclusion of individual subjects should be directed to Drs. Cobain and Speers (ecobain@med.umich.edu and cspeers@med.umich.edu).\n* Patient has a concurrent invasive malignancy or a prior invasive malignancy whose treatment was completed within 2 years before randomization. Note: Patients with adequately treated, basal or squamous cell skin carcinoma or curatively resected cervical cancer in situ are eligible.\n* Patient has impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of the oral trial treatments (e.g. uncontrolled ulcerative diseases, uncontrolled nausea, vomiting or diarrhea, malabsorption syndrome, or small bowel resection).\n* Patients must not receive any additional anti-cancer therapy or investigational agents during study therapy. Anti-cancer therapies include chemotherapy and endocrine therapy.\n* Patient is currently receiving any of the following substances within 7 days before randomization:\n\n  * Concomitant medications, herbal supplements, and/or fruits (e.g. grapefruit, pummellos, starfruit, Seville oranges) and their juices that are known as strong inhibitors or inducers of CYP3A4/5.\n  * Medications that have a narrow therapeutic window and are predominantly metabolized through CYP3A4/5.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "FEMALE",
+      "lead_sponsor": "University of Michigan Rogel Cancer Center"
+    },
+    {
+      "nct_id": "NCT05721976",
+      "title": "With Love, Grandma (\"Con Cariño, Abuelita\") Pilot Study",
+      "conditions": [
+        "Cancer, Breast",
+        "Cancer, Uterus",
+        "Cancer, Ovary",
+        "Obesity",
+        "Activity, Motor",
+        "Diet, Healthy"
+      ],
+      "phases": [
+        "NA"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Cancer Survivor Inclusion Criteria:\n\n* Grandmother\n* Self-identifies as Hispanic\n* Diagnosis of breast cancer (stages I-III), endometrial or ovarian cancer (stages I-II)\n* Completed active treatment (i.e., surgery, chemotherapy, and/or radiation)\n* Body Mass Index (BMI) ≥ 25 (overweight range)\n* Engages in \\<150 minutes/week of moderate physical activity\n* English or Spanish speaking\n* Owns a mobile device with internet access (e.g., smartphone, tablet)\n* Lives in South Florida\n\nDaughter of Cancer Survivor Inclusion Criteria:\n\n* Adult daughter of the identified cancer survivor (21 years of age or older)\n* Has at least 1 living child ages ≤16 years old\n* Body Mass Index (BMI) ≥ 25 (overweight range) OR engages in \\<150 minutes/week of moderate physical activity\n* English or Spanish speaking\n* Owns a mobile device with internet access (e.g., smartphone, tablet)\n* Lives in South Florida\n\nDaughter of Cancer Survivor Exclusion Criteria:\n\n* Has been diagnosed with distant metastatic cancer\n* Has not completed active treatment (i.e., surgery, chemotherapy, and/or radiation)\n* Has uncontrolled schizophrenia or bipolar disorder\n* Has a preexisting medical condition that precludes unsupervised physical activity (e.g., severe orthopedic conditions,wheelchair bound).\n\nCancer Survivor Exclusion Criteria:\n\n* Has uncontrolled schizophrenia or bipolar disorder\n* Has a preexisting medical condition that precludes unsupervised physical activity (e.g., severe orthopedic conditions, wheelchair bound)",
+      "min_age": "21 Years",
+      "max_age": null,
+      "sex": "FEMALE",
+      "lead_sponsor": "University of Miami Sylvester Comprehensive Cancer Center"
+    },
+    {
+      "nct_id": "NCT06970288",
+      "title": "Effectiveness of Introducing Ultra-High B-Value Diffusion-Weighted Imaging as a Modified Abbreviated Protocol for Breast Cancer Detection",
+      "conditions": [
+        "Breast Carcinoma"
+      ],
+      "phases": [],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* • Women with suspicious breast mass (BIRADS 4a)\n\n  * High risk women (Positive family history)\n  * Women with suspicious axillary lymph nodes by Ultrasound\n  * Women with dense breasts coming for MRI imaging.\n\nExclusion Criteria:\n\n* • Contraindications to MRI\n\n  * Pacemaker, cochlear implant, claustrophobia, ocular implants\n  * Contraindications to contrast administration:\n  * Elevated kidney functions\n  * Women who haven't undergone reliable Mammogram \\& Ultrasound\n  * Women with prior treatment or intervention (e.g. biopsy)\n  * Patients' refusal.",
+      "min_age": "30 Years",
+      "max_age": "50 Years",
+      "sex": "FEMALE",
+      "lead_sponsor": "Ain Shams University"
+    },
+    {
+      "nct_id": "NCT07095023",
+      "title": "Neoadjuvant Oral Paclitaxel Plus Subcutaneous Pertuzumab/Trastuzumab in Patients With HER2-positive Breast Cancer",
+      "conditions": [
+        "Breast Cancers"
+      ],
+      "phases": [
+        "NA"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\nAged 18-75 years old. Histologically confirmed HER2-positive invasive breast cancer with clinical stages T1c-4, N0-3, and M0 (excluding T1cN0M0), according to the 8th American Joint Committee on Cancer (AJCC) edition BC staging system HER2 overexpression was defined as immunohistochemistry (IHC) 3+ or 2+ with HER2 gene amplification, determined by fluorescence in situ hybridization (FISH).\n\nBaseline left ventricular ejection fraction (LVEF) of ≥50%. Eastern Cooperative Oncology Group (ECOG) Performance Status 0 or 1.\n\nThe functional level of major organs must meet the following requirements (no blood transfusion and no use of white blood cell, red blood cell and platelet-raising drugs within 2 weeks before the first dose):\n\n* Absolute neutrophil count ≥ 1,500/mcL\n* Platelets ≥ 100,000/mcL\n* Hemoglobin ≥ 9.0 g/dL\n* Total bilirubin ≤ 1.5 x upper limit of normal (ULN)\n* Alanine aminotransferase and aspartate aminotransferase (ALT/AST) ≤1.5×ULN\n* Blood urea nitrogen and serum creatinine ≤1.5×ULN\n* Creatinine clearance (Ccr) ≥50 ml/min (Cockcroft-Gault formula) Signature of informed consent\n\nExclusion Criteria:\n\n* History of invasive breast cancer. Bilateral breast cancer or inflammatory breast cancer . Prior excisional and/or incisional biopsy of the primary tumor and/or axillary lymph nodes.\n\nPrior systemic therapy for breast cancer. History of life-threatening hypersensitivity reactions or known hypersensitivity to any component of the investigational drug.\n\nParticipation in another clinical trial of a drug or medical device within 4 weeks prior to the first dose and/or receipt of investigational drug/device during the trial.\n\nMajor surgery within 28 days prior to the first dose or planned major surgery during the study period.\n\nHistory of other malignancies within the past 5 years, except for carcinoma in situ of the cervix, non-melanoma skin cancer, localized prostate cancer, or ductal carcinoma in situ.\n\nActive tuberculosis or other severe infectious diseases requiring systemic treatment, including but not limited to bacteremia, severe pneumonia, and other serious infections.\n\nHistory of immunodeficiency or autoimmune diseases, including but not limited to HIV infection (HIV antibody positive), systemic lupus erythematosus, rheumatoid arthritis, or history of organ transplantation.\n\nHistory of cardiovascular or cerebrovascular diseases, including:\n\n* Unstable angina;\n* Clinically significant arrhythmias requiring medication;\n* Myocardial infarction within the past 6 months;\n* Heart failure or second-degree or higher atrioventricular block;\n* Cerebral infarction (excluding lacunar infarction) or cerebral hemorrhage within the past 6 months.\n\nPoorly controlled hypertension (systolic blood pressure \\>160 mmHg and/or diastolic blood pressure \\>100 mmHg despite regular medication), or history of hypertensive crisis or hypertensive encephalopathy.\n\nUnsuitability for oral administration of the investigational drug, as judged by the investigator, including:\n\n* Clinically significant or uncontrolled congenital or acquired gastrointestinal diseases;\n* Diseases that may affect drug administration, gastric entry, or absorption (e.g., intestinal obstruction, Crohn's disease, ulcerative colitis).\n\nPregnant or breastfeeding women; women of childbearing potential with a positive pregnancy test at screening; or those unwilling to use effective contraception during the study and for 6 months after the last dose.",
+      "min_age": "18 Years",
+      "max_age": "75 Years",
+      "sex": "ALL",
+      "lead_sponsor": "Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University"
+    },
+    {
+      "nct_id": "NCT05590949",
+      "title": "Observational Study of Bone Complications in People With Post-menopausal Breast Cancer Who Have Stopped Treatment With Denosumab and Aromatase Inhibitors",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "phases": [],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Women with confirmed diagnosis of breast cancer\n* Participant must be post-menopausal, defined as last menstrual cycle at least 12 months prior to enrollment\n* Received at least 2 doses of denosumab and then discontinued therapy\n* Discontinued AI prior to or within 6 months of last denosumab injection\n* Patients must be 18 years of age or olde\n\nExclusion Criteria:\n\n* Patients with history of osteoporosis prior to starting denosumab, based on previous dual-energy X-ray absorptiometry (DEXA) scan;\n* Patients with history of insufficiency fracture.\n* Patients who continue treatment with a different bone modifying agent (i.e oral or intravenous bisphosphonates) after discontinuation of denosumab\n* Patients on chronic low-dose glucosteroids.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "FEMALE",
+      "lead_sponsor": "Memorial Sloan Kettering Cancer Center"
+    },
+    {
+      "nct_id": "NCT07716176",
+      "title": "Auricular Point Stimulation Plus Dexamethasone Versus Standard Antiemetic Regimen for Nausea and Vomiting Caused by Docetaxel Plus Cyclophosphamide",
+      "conditions": [
+        "Nausea and Vomiting Caused by Chemotherapy"
+      ],
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must meet the following inclusion criteria for the study:\\* Age ≥ 18 years and ≤ 85 years\\* After a radical mastectomy, further postoperative adjuvant chemotherapy with docetaxel combined with cyclophosphamide regimen is required.\\* ECOG performance status score of 0-2.\\* Normal hematological function (platelet count \\> 80×10⁹/L; white blood cell count \\> 3×10⁹/L; neutrophil count \\> 1.5×10⁹/L).\\* Serum bilirubin ≤ 1.5 times the upper limit of normal (ULN), and transaminase ≤ 5 times the ULN.\\* No ascites, no gastrointestinal obstruction, normal coagulation function, and serum albumin ≥ 30g/L.\\* Child-Pugh classification of liver function is Grade A.\\* Serum creatinine \\< ULN, or calculated creatinine clearance rate \\> 50ml/min.\n\nExclusion Criteria:\n\n* Patients who meet any of the following criteria will be excluded from the study: \\* Local inflammation or infection of the auricle\\* Bleeding tendency or coagulation disorders\\* Severe ascites\\* Gastrointestinal obstruction\\* Hypertensive crisis or hypertensive encephalopathy\\* Severe uncontrolled systemic complications such as infection or diabetes mellitus\\* Clinically severe cardiovascular diseases, including cerebrovascular accident (within 6 months before enrollment), myocardial infarction (within 6 months before enrollment), hypertension that is not well-controlled despite appropriate medication, unstable angina pectoris, congestive heart failure (NYHA Class 2-4), and cardiac arrhythmias requiring drug treatment\\* A history of or physical examination findings indicating central nervous system diseases (e.g., primary brain tumor, epilepsy uncontrolled by standard treatment, any history of brain metastasis or stroke)\\* Hypersensitivity to any drugs used in the study\\* Pregnant or lactating women\\* Presence of any other diseases, functional impairment caused by metastatic lesions, or suspicious disorders identified during physical examination, which suggest contraindications to the study drugs or place the patient at high risk of treatment-related complications\\* Inability or unwillingness to comply with the study protocol.",
+      "min_age": "18 Years",
+      "max_age": "85 Years",
+      "sex": "ALL",
+      "lead_sponsor": "Second Affiliated Hospital, Zhejiang University, School of Medicine"
+    },
+    {
+      "nct_id": "NCT04576143",
+      "title": "Efficacy and Safety of Dose-dense Chemotherapy (ddEC-ddP) for Neoadjuvant Chemotherapy of HER2-negative Breast Cancer",
+      "conditions": [
+        "HER2-negative Breast Cancer",
+        "Neoadjuvant Chemotherapy"
+      ],
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Female aged 18-70 years old;\n2. Histological confirmed with unilateral invasive carcinoma (all pathological types are applicable), clinical stage IIA-IIIA;\n3. Definite reports on ER/PR/HER2 receptor showing all HER2 negative (HER2 is 0\\~1+ or 2+ but determined negative via fluorescence in situ hybridization (FISH) or chemiluminescent in situ hybridization (CISH) detected (no amplification) is defined as HER2 negative);\n4. According to RECIST 1.1, there is at least one measurable objective focus, tumor size \\> 2cm;\n5. Eastern Cooperative Oncology Group (ECOG) performance score is 0 or 1;\n6. Cardiac function: left ventricular ejection fraction (LVEF)≥55%;\n7. Normal bone marrow function: White blood cell count \\> 4 × 10\\^9/l, neutrophil count \\> 1.5 × 10\\^9/l, platelet count \\> 100 × 10\\^9/l and hemoglobin 9g/dl;\n8. Normal liver and renal function: aspartate aminotransferase (AST) and ALT ≤2.5 folds of the upper limit of normal values, total bilirubin ≤1.5 folds of the upper limit of normal values; Serum creatinine ≤1.5 folds of the upper limit of normal value.\n9. Informed consent form signed.\n\nExclusion Criteria:\n\n1. HER2 is positive;\n2. Metastasis at any location;\n3. Previous neoadjuvant therapy, including chemotherapy, radiotherapy and hormone therapy;\n4. Severe systemic disease and/or uncontrollable infection, unable to be enrolled in this study;\n5. Known allergic or intolerable to chemotherapeutic agents;\n6. Previously suffering from malignant tumors within 5 years (except for basal cell carcinoma and cervical carcinoma in situ), including contralateral breast cancer;\n7. Cardiovascular disease: LVEF \\<50% (echocardiography) of New York Heart Association (NYHA) ≥ grade 2;\n8. Pregnant and breast-feeding women; Pregnancy test showed positive results before drug administration after enrolling in to the study; Women at childbearing age refuse to take contraception measures during the treatment and 8 weeks after completion of treatment;\n9. Already enrolled into other clinical trials;\n10. The researchers judged the patients who were not suitable for this study.",
+      "min_age": "18 Years",
+      "max_age": "70 Years",
+      "sex": "FEMALE",
+      "lead_sponsor": "Second Affiliated Hospital, Zhejiang University, School of Medicine"
+    },
+    {
+      "nct_id": "NCT06172478",
+      "title": "A Study of HER3-DXd in Subjects With Locally Advanced or Metastatic Solid Tumors",
+      "conditions": [
+        "Advanced Solid Tumor",
+        "Melanoma",
+        "Head and Neck Cancer",
+        "Gastric Cancer",
+        "Ovarian Carcinoma",
+        "Cervical Cancer",
+        "Endometrial Cancer",
+        "Bladder Cancer",
+        "Esophageal Cancer",
+        "Pancreatic Carcinoma",
+        "Prostate Cancer",
+        "Non-small Cell Lung Cancer (NSCLC)",
+        "Lung Cancer",
+        "Breast Cancer"
+      ],
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria\n\nParticipants must meet all of the following criteria to be eligible for enrollment into the study:\n\n1. Sign and date the informed consent form prior to the start of any study-specific qualification procedures. A separate tissue screening consent will be obtained from all subjects to meet the baseline tumor tissue requirement.\n2. Participants aged ≥18 years (follow local regulatory requirements if the legal age of consent for study participation is \\>18 years old).\n3. Has locally advanced unresectable or metastatic disease (not curable by surgery or radiation) as follows:\n\n   Cutaneous (acral and non-acral) melanoma\n   1. Histologically or cytologically confirmed cutaneous (acral or non-acral) melanoma\n   2. Disease progression while on or after having received treatment with ≥1 prior line of anti-programmed cell death protein (PD-1) or anti-programmed death-ligand 1 (PD-L1) based therapy (previous use of other immune checkpoint inhibitors \\[ICIs\\] \\[ie, anti-CTLA4, anti- LAG-3\\] is acceptable). Prior anti-PD-(L)1 therapy in the adjuvant setting is allowed if there is recurrence within 12 weeks of the last dose. If the participant had BRAFm melanoma, they must have had disease progression on BRAF/MEK inhibitor therapy as well.\n\n      Squamous cell carcinomas of the head and neck\n   3. Squamous cell carcinoma of the head and neck (with a primary location of oral cavity,oropharynx, larynx, hypopharynx) that is human papillomavirus (HPV) positive or negative (as determined by local standard). Excludes tumor location in the nasopharynx, nasal cavity, paranasal sinuses, and unknown primary locations.\n   4. Disease progression after having received treatment with ≥1 and \\<3 prior lines of systemic therapy in the unresectable recurrent or metastatic setting.\n\n      Must have had disease progression on anti-PD-(L)1 (either as monotherapy or in combination with chemotherapy or other therapies). Must also have had disease progression on a platinum-based chemotherapy (PBC) regimen either in the recurrent or metastatic setting or in the locally advanced setting with curative intent.\n\n      Gastric or GEJ adenocarcinoma\n   5. Tumor tissue must be confirmed as negative for HER2 expression (immunohistochemistry \\[IHC\\] 0/1+ or IHC 2+/in situ hybridization negative) as classified by American Society of Clinical Oncology/College of American Pathologists (ASCO-CAP) guidelines and determined prior to enrollment by assessment in a local laboratory that is Clinical Laboratory Improvement Amendments certified (US sites) or accredited based on specific country regulations.\n   6. Disease progression after having received treatment with ≥2 prior lines of therapy that include PBC with or without anti-PD-1 therapy.\n\n      Ovarian Carcinoma\n   7. Pathologically documented high-grade serous epithelial ovarian cancer, primary peritoneal cancer, or fallopian tube cancer.\n   8. Documented disease progression ≥4 weeks after the last dose of PBC and \\<6 months of last dose of PBC in the advanced or metastatic setting. Prior use of folate reductase alpha targeting antibody-drug conjugate (ADC) (ie, mirvetuximab soravtansine) is allowed.\n\n      Cervical Cancer\n   9. Pathologically or cytologically documented recurrent or persistent squamous, adenosquamous, or adenocarcinoma of the uterine cervix.\n   10. Disease progression after having received ≥1 line of systemic therapy in the recurrent or metastatic setting. This may include prior anti-PD-(L)1 treatment and/or tissue factor directed ADC (tisotumab vedotin \\[TV\\]) per regional standard of care.\n\n       Endometrial Cancer\n   11. Pathologically or cytologically documented endometrial cancer (carcinoma of any histological sub-type or endometrial carcinosarcoma), irrespective of microsatellite instability (MSI) or mismatch repair (MMR) status.\n   12. Documented disease progression after having received ≥1 prior line of therapy (maximum of 3) PBC containing systemic treatment and an anti-PD(L)-1 therapy-containing regimen (combined or sequential) in the advanced/metastatic setting.\n\n       Bladder Cancer\n   13. Pathologically or cytologically documented locally advanced/unresectable or metastatic urothelial carcinoma of the bladder, renal pelvis, ureter, or urethra. Histological variants are allowed if urothelial histology is predominant. Small cell/neuroendocrine tumors are not allowed even if mixed histology.\n   14. Relapsed or progressed after treatment with ≥1 prior line of therapy (maximum of 3) that contains anti-PD-(L)1 therapy in the perioperative or metastatic setting. At least 1 line of therapy must also contain one of the following treatment modalities: chemotherapy or enfortumab vedotin. Prior fibroblast growth factor receptor (FGFR)-inhibitor treatment for those who are eligible are allowed.\n\n       * Required treatments can be given in combination or sequentially\n       * Prior cisplatin-based therapy or PD-(L)1 inhibitor therapy given for the treatment of muscle invasive urothelial carcinoma is counted as 1 line of therapy\n       * The same regimen administered twice in different disease settings will be counted as 1 line of prior therapy\n       * Participants in the second-line setting who have previously received enfortumab vedotin and pembrolizumab in combination can be enrolled.\n\n       Esophageal Carcinoma\n   15. Pathologically or cytologically documented esophageal squamous cell carcinoma.\n   16. Must have documented disease progression after having received 2 prior lines of therapy including previous PBC with or without an anti-PD-1 therapy-containing regimen (combined or sequential) in the advanced/metastatic setting.\n\n       Pancreatic Carcinoma\n   17. Pathologically or cytologically documented unresectable or metastatic pancreatic adenocarcinoma.\n   18. Relapsed or disease progression after having received 1 prior line of systemic therapy in the locally advanced/metastatic setting.\n\n       Prostate Cancer\n   19. Pathologically or cytologically documented unresectable locally advanced or metastatic castration-resistant prostate cancer (CRPC).\n   20. Adenocarcinoma of the prostate without neuroendocrine differentiation or small cell histology.\n   21. Surgically or medically castrated, with testosterone levels of \\<50 ng/dL.\n   22. Documented objective progression as determined by radiographic progression for subjects with measurable disease after androgen deprivation.\n   23. Relapsed or disease progression after having received treatment with ≥1 of the following novel hormonal agents: abiraterone, enzalutamide, apalutamide, or darolutamide.\n   24. Relapsed or disease progression after having received ≥1 cytotoxic chemotherapy regimen that included a taxane.\n\n       Gastric Cancer 2L\n   25. Must have had gastric or GEJ adenocarcinoma confirmed as negative for HER2 expression (IHC 0/1+ or IHC 2+/in situ hybridization negative) as classified by American Society of Clinical Oncology/College of American Pathologists (ASCO-CAP) guidelines and determined prior to enrollment by assessment in a local laboratory that is Clinical Laboratory Improvement Amendments certified (US sites) or accredited based on specific country regulations.\n   26. Disease progression after having received treatment with only 1 prior line of systemic anti-cancer therapy that includes 5-FU-based chemotherapy with or without an anti-PD-1 therapy. For subjects whose tumors are claudin (CLDN) 18.2 positive, treatment with 5-FU based chemotherapy with CLDN18.2 directed therapy in the first-line setting is allowed.\n\n   Non-small Cell Lung Cancer aa. Histologically or cytologically documented metastatic or locally advanced nonsquamous NSCLC not amenable to curative surgery or radiation bb. Documentation of absence of actionable driver mutation (ie, ALK rearrangement, BRAF V600E mutation, EGFR-activating mutations \\[exon 19 deletion or L858R mutation\\], EGFR exon 20 insertion mutation, HER2 mutation, KRAS G12C mutation, MET exon 14 skipping mutation, NTRK 1/2/3 gene fusion, RET rearrangement, or ROS1 rearrangement). New testing for these genomic alterations is not required for Screening.\n\n   cc. Relapsed or disease progression after receiving only anti-PD-(L)1 and PBC (ie, platinum doublet) administered in combination or sequentially for metastatic disease.\n\n   Breast Cancer dd. Pathologically documented breast cancer that is assessed as HER2 negative (IHC2+/ISH-, IHC1+, or IHC0 per ASCO/CAP guidelines), and HR positive (either ER and/or PgR positive \\[ER or PgR ≥1%\\] per ASCO/CAP guidelines). The HER2 and HR results must be from a tumor sample obtained in the metastatic setting.\n\n   ee. Participant must have received one line of chemotherapy for mBC, but not more than one line and must have a clinically or radiologically documented evidence of tumor progression on or after CDK 4/6 inhibitor combined with endocrine therapy; previous treatments with phosphoinositide 3-kinase (PI3K) inhibitors, mammalian target of rapamycin (mTOR) inhibitors, protein kinase B (PKB) inhibitors also known as AKT-inhibitors and poly ADP ribose polymerase (PARP)-inhibitors are allowed.\n4. Has ≥1 measurable lesion on CT or MRI as per RECIST v1.1 by investigator assessment. Prostate cancer participants with bone only disease may be eligible.\n5. Provides a pretreatment tumor tissue sample that meets 1 of the following collection requirements:\n\n   1. Tumor biopsy from ≥1 lesion not previously irradiated and performed since progression with the most recent systemic cancer therapy regimen and prior to signature of the tissue ICF (ARCHIVAL PRETREATMENT sample).\n\n      OR\n   2. Newly obtained pretreatment tumor biopsy from ≥1 lesion not previously irradiated and amenable to sampling, after signature of tissue ICF (FRESH PRETREATMENT sample)\n6. Has Eastern Cooperative Oncology Group performance status (ECOG PS) of 0 or 1 at screening.\n\nExclusion Criteria\n\nParticipants who meet any of the following criteria will be disqualified from entering the study:\n\n1. Has HER2-positive gastric cancer as classified by ASCO-CAP guidelines and determined prior to enrollment by assessment in a local laboratory that is Clinical Laboratory Improvement Amendments certified (US sites) or accredited based on specific country regulations.\n2. Has nasopharyngeal cancer.\n3. Has mucosal or uveal melanoma.\n4. Has a history of (non-infectious) interstitial lung disease (ILD), that required corticosteroids, has current ILD/pneumonitis, or suspected ILD/pneumonitis cannot be ruled out by imaging at screening.\n5. Has clinically severe respiratory compromise (based on the investigator's assessment) resulting from intercurrent pulmonary illnesses\n6. Is receiving chronic systemic corticosteroids dosed at \\>10 mg prednisone daily or equivalent anti-inflammatory activity or any form of immunosuppressive therapy prior to Cycle 1 Day 1.\n\n   Participants who require use of bronchodilators, inhaled or topical steroids, or local steroid injections may be included in the study.\n7. Had prior treatment with an anti-HER3 antibody and/or antibody-drug conjugate (ADC) that consists of an exatecan derivative that is a topoisomerase I inhibitor (eg, trastuzumab deruxtecan).\n8. Has history of other active malignancy within 3 years prior to Cycle 1 Day 1, except the following:\n\n   1. Adequately treated nonmelanoma skin cancer\n   2. Adequately treated intraepithelial carcinoma of the cervix\n   3. Any other curatively treated in situ disease\n9. Has any evidence of severe or uncontrolled diseases (eg, active bleeding diatheses, active serious infection) psychiatric illness/social situations, geographical factors, substance abuse, or other factors that, in the investigator's opinion, make it high risk for the subject to participate in the study or that would jeopardize compliance with the protocol\n10. Has previously received topoisomerase-1 inhibitors (e.g., irinotecan) treatment in the advanced or metastatic disease setting.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "Daiichi Sankyo"
+    },
+    {
+      "nct_id": "NCT03604315",
+      "title": "Serial Imaging of the Novel Radiotracer [^18F] FLuorthanatrace ([^18F] FTT) by PET/CTF",
+      "conditions": [
+        "Breast Carcinoma",
+        "Fallopian Tube Carcinoma",
+        "Ovarian Carcinoma",
+        "Primary Peritoneal Carcinoma",
+        "Recurrent Fallopian Tube Carcinoma",
+        "Recurrent Ovarian Carcinoma",
+        "Recurrent Primary Peritoneal Carcinoma",
+        "Solid Neoplasm"
+      ],
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* History of known or suspected solid tumor.\n* At least one lesion ≥ 1.0 cm that is seen on standard imaging (e.g. computed tomography \\[CT\\], magnetic resonance imaging \\[MRI\\], ultrasound, fludeoxyglucose \\[FDG\\] PET/CT).\n\nExclusion Criteria:\n\n* Females who are pregnant or breast feeding at the time of screening will not be eligible for this study; a urine pregnancy test will be performed in women of child-bearing potential \\< 2 weeks prior to screening as standard of care.\n* Inability to tolerate imaging procedures in the opinion of an investigator or treating physician.\n* Any current medical condition, illness, or disorder as assessed by medical record review and/or self-reported that is considered by a physician investigator to be a condition that could compromise participant safety or successful participation in the study.",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "FEMALE",
+      "lead_sponsor": "M.D. Anderson Cancer Center"
+    },
+    {
+      "nct_id": "NCT05490433",
+      "title": "Robot-assisted vs. Open Nipple-sparing Mastectomy With Immediate Breast Reconstruction",
+      "conditions": [
+        "Breast Cancer Classified as TNM Stage 0-IIIa"
+      ],
+      "phases": [
+        "NA"
+      ],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Adult women (≥19 years) scheduled to undergo therapeutic mastectomy for breast cancer who desire immediate breast reconstruction (IBR).\n* Breast cancer classified as clinical TNM stage 0 to IIIA, based on preoperative evaluation according to the 8th edition of the AJCC anatomic staging system.\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n\nExclusion Criteria:\n\n* Patients scheduled for breast-conserving surgery or deemed ineligible for immediate breast reconstruction (IBR).\n* Clinical evidence of nipple or skin involvement on preoperative evaluation.\n\n  * Pregnant or breastfeeding women.\n  * Tumors consisting exclusively of lobular carcinoma in situ (LCIS).\n  * Paget's disease of the breast.\n  * Inflammatory breast cancer.\n  * Male breast cancer.\n  * Clinical stage IIIB-IV disease on preoperative evaluation.\n  * breast size equal to or larger than cup E\n  * History of breast cancer or bilateral breast cancer (including metachronous or synchronous disease).\n  * History of non-breast malignancy, with the exception of non-melanoma skin cancer or papillary/follicular thyroid carcinoma.\n  * Special histologic subtypes of breast tumors (e.g., phyllodes tumor, sarcoma, lymphoma).\n  * Age \\>70 years.\n  * American Society of Anesthesiologists (ASA) physical status classification grade ≥4.\n  * Inability to provide informed consent.\n  * History of prior chest radiotherapy.\n  * Patients who have not undergone preoperative testing for hepatitis B virus (HBV), hepatitis C virus (HCV), and human immunodeficiency virus (HIV), which is required for liability insurance coverage.",
+      "min_age": "19 Years",
+      "max_age": "70 Years",
+      "sex": "FEMALE",
+      "lead_sponsor": "Yonsei University"
+    },
+    {
+      "nct_id": "NCT03702309",
+      "title": "Liquid Biopsy Evaluation and Repository Development at Princess Margaret",
+      "conditions": [
+        "Cancer",
+        "Breast Cancer",
+        "Lung Cancer",
+        "Colon Cancer",
+        "Ovarian Cancer",
+        "Melanoma",
+        "Lymphoma",
+        "Leukemia",
+        "Mutation",
+        "Lynch Syndrome",
+        "Cowden Syndrome",
+        "BRCA1 Mutation",
+        "BRCA2 Mutation",
+        "Uterine Cancer",
+        "Myeloma",
+        "Kidney Cancer",
+        "Head and Neck Cancer",
+        "Meningioma"
+      ],
+      "phases": [],
+      "status": "RECRUITING",
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with either histological confirmation of a solid tumor or hematological malignancy, OR patients identified as high-risk for cancer (based on identified aberration in cancer predisposition gene or on hormonal and/or family history without known aberration).\n2. Patient must be ≥ 18 years old.\n3. All patients must have signed and dated an informed consent form for this LIBERATE study.\n4. If patients are being co-consented for a separate primary research study listed in Appendix I, they must fulfill the eligibility criteria for that separate primary research study. If there is a discrepancy in the eligibility criteria between protocols, the separate primary research study's criteria take precedence.\n\nExclusion Criteria:\n\nNone",
+      "min_age": "18 Years",
+      "max_age": null,
+      "sex": "ALL",
+      "lead_sponsor": "University Health Network, Toronto"
+    }
+  ]
+}

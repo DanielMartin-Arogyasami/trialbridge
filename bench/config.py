@@ -39,7 +39,8 @@ ANNOTATIONS_A2_FILE = os.path.join(WORK_DIR, "annotations_a2.jsonl")  # second a
 # --------------------------------------------------------------------------
 
 FLAGSHIP_COHORT = "nsclc"          # <-- change to "neoantigen" if that's your call
-COHORTS = ["nsclc", "neoantigen"]  # cohorts to pull and freeze
+# Paper §3.3: flagship + NSCLC comparison + common-solid-tumor baseline (breast).
+COHORTS = ["nsclc", "neoantigen", "breast"]
 TRIALS_PER_COHORT = 25             # page size per cohort pull
 
 # --------------------------------------------------------------------------
